@@ -1,0 +1,9 @@
+attack_type,Benign,Ransomware,Spyware,Trojan
+backdoor_injection,2342,0,0,0
+clean,29298,4310,4413,4181
+feature_poisoning,0,783,801,758
+gaussian_noise_injection,0,783,801,758
+label_flipping,2342,0,0,0
+missing_value_injection,0,783,801,758
+outlier_injection,0,783,801,758
+sample_duplication,0,783,801,758

@@ -1,0 +1,6 @@
+dataset,feature,missing_count,missing_percentage
+Android / CICMalDroid2020 structure,clock_gettime,360,3.1039834454216244
+Android / CICMalDroid2020 structure,writev,335,2.888429039489567
+Android / CICMalDroid2020 structure,sched_yield,322,2.7763407484048974
+Android / CICMalDroid2020 structure,gettimeofday,282,2.431453698913606
+Android / CICMalDroid2020 structure,read,267,2.3021210553543714
