@@ -1,0 +1,536 @@
+dataset,variable,dtype,role,anomaly_model_allowed,downstream_model_allowed,missing_cells,unique_values
+CIC-MalMem-2022,Class,str,Observed class label / downstream target,False,True,0,4
+CIC-MalMem-2022,pslist.nproc,int64,Modeling feature,True,True,0,113
+CIC-MalMem-2022,pslist.nppid,int64,Modeling feature,True,True,0,48
+CIC-MalMem-2022,pslist.avg_threads,float64,Modeling feature,True,True,0,30075
+CIC-MalMem-2022,pslist.nprocs64bit,int64,Constant feature — excluded from modeling,False,False,0,1
+CIC-MalMem-2022,pslist.avg_handlers,float64,Modeling feature,True,True,921,37645
+CIC-MalMem-2022,dlllist.ndlls,float64,Modeling feature,True,True,933,4390
+CIC-MalMem-2022,dlllist.avg_dlls_per_proc,float64,Modeling feature,True,True,0,16218
+CIC-MalMem-2022,handles.nhandles,float64,Modeling feature,True,True,919,11915
+CIC-MalMem-2022,handles.avg_handles_per_proc,float64,Modeling feature,True,True,0,37875
+CIC-MalMem-2022,handles.nport,int64,Constant feature — excluded from modeling,False,False,0,1
+CIC-MalMem-2022,handles.nfile,int64,Modeling feature,True,True,0,1137
+CIC-MalMem-2022,handles.nevent,int64,Modeling feature,True,True,0,3447
+CIC-MalMem-2022,handles.ndesktop,int64,Modeling feature,True,True,0,64
+CIC-MalMem-2022,handles.nkey,int64,Modeling feature,True,True,0,1094
+CIC-MalMem-2022,handles.nthread,int64,Modeling feature,True,True,0,1168
+CIC-MalMem-2022,handles.ndirectory,int64,Modeling feature,True,True,0,108
+CIC-MalMem-2022,handles.nsemaphore,int64,Modeling feature,True,True,0,637
+CIC-MalMem-2022,handles.ntimer,int64,Modeling feature,True,True,0,128
+CIC-MalMem-2022,handles.nsection,int64,Modeling feature,True,True,0,626
+CIC-MalMem-2022,handles.nmutant,int64,Modeling feature,True,True,0,408
+CIC-MalMem-2022,ldrmodules.not_in_load,int64,Modeling feature,True,True,0,150
+CIC-MalMem-2022,ldrmodules.not_in_init,int64,Modeling feature,True,True,0,185
+CIC-MalMem-2022,ldrmodules.not_in_mem,int64,Modeling feature,True,True,0,150
+CIC-MalMem-2022,ldrmodules.not_in_load_avg,float64,Modeling feature,True,True,0,18531
+CIC-MalMem-2022,ldrmodules.not_in_init_avg,float64,Modeling feature,True,True,0,18692
+CIC-MalMem-2022,ldrmodules.not_in_mem_avg,float64,Modeling feature,True,True,0,18531
+CIC-MalMem-2022,malfind.ninjections,int64,Modeling feature,True,True,0,117
+CIC-MalMem-2022,malfind.commitCharge,float64,Modeling feature,True,True,941,5161
+CIC-MalMem-2022,malfind.protection,int64,Modeling feature,True,True,0,212
+CIC-MalMem-2022,malfind.uniqueInjections,float64,Modeling feature,True,True,0,5517
+CIC-MalMem-2022,psxview.not_in_pslist,int64,Modeling feature,True,True,0,41
+CIC-MalMem-2022,psxview.not_in_eprocess_pool,int64,Modeling feature,True,True,0,2
+CIC-MalMem-2022,psxview.not_in_ethread_pool,int64,Modeling feature,True,True,0,83
+CIC-MalMem-2022,psxview.not_in_pspcid_list,int64,Modeling feature,True,True,0,43
+CIC-MalMem-2022,psxview.not_in_csrss_handles,int64,Modeling feature,True,True,0,83
+CIC-MalMem-2022,psxview.not_in_session,int64,Modeling feature,True,True,0,41
+CIC-MalMem-2022,psxview.not_in_deskthrd,int64,Modeling feature,True,True,0,86
+CIC-MalMem-2022,psxview.not_in_pslist_false_avg,float64,Modeling feature,True,True,0,9674
+CIC-MalMem-2022,psxview.not_in_eprocess_pool_false_avg,float64,Modeling feature,True,True,0,195
+CIC-MalMem-2022,psxview.not_in_ethread_pool_false_avg,float64,Modeling feature,True,True,0,10408
+CIC-MalMem-2022,psxview.not_in_pspcid_list_false_avg,float64,Modeling feature,True,True,0,9678
+CIC-MalMem-2022,psxview.not_in_csrss_handles_false_avg,float64,Modeling feature,True,True,0,11800
+CIC-MalMem-2022,psxview.not_in_session_false_avg,float64,Modeling feature,True,True,0,11913
+CIC-MalMem-2022,psxview.not_in_deskthrd_false_avg,float64,Modeling feature,True,True,0,12037
+CIC-MalMem-2022,modules.nmodules,float64,Modeling feature,True,True,0,2286
+CIC-MalMem-2022,svcscan.nservices,float64,Modeling feature,True,True,0,2310
+CIC-MalMem-2022,svcscan.kernel_drivers,float64,Modeling feature,True,True,970,31
+CIC-MalMem-2022,svcscan.fs_drivers,int64,Modeling feature,True,True,0,10
+CIC-MalMem-2022,svcscan.process_services,int64,Modeling feature,True,True,0,14
+CIC-MalMem-2022,svcscan.shared_process_services,int64,Modeling feature,True,True,0,23
+CIC-MalMem-2022,svcscan.interactive_process_services,int64,Constant feature — excluded from modeling,False,False,0,1
+CIC-MalMem-2022,svcscan.nactive,float64,Modeling feature,True,True,0,2326
+CIC-MalMem-2022,callbacks.ncallbacks,float64,Modeling feature,True,True,0,2299
+CIC-MalMem-2022,callbacks.nanonymous,int64,Modeling feature,True,True,0,2
+CIC-MalMem-2022,callbacks.ngeneric,int64,Modeling feature,True,True,0,2
+CIC-MalMem-2022,attack_type,str,Attack mechanism metadata,False,False,0,8
+CIC-MalMem-2022,original_label,str,Reference/original label,False,False,0,4
+CIC-MalMem-2022,source_index,int64,Source/provenance metadata,False,False,0,2343
+CIC-MalMem-2022,poisoned,int64,Evaluation target,False,False,0,2
+Android / CICMalDroid2020 structure,ACCESS_PERSONAL_INFO___,float64,Modeling feature,True,True,0,304
+Android / CICMalDroid2020 structure,ALTER_PHONE_STATE___,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,ANTI_DEBUG_____,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,CREATE_FOLDER_____,float64,Modeling feature,True,True,0,62
+Android / CICMalDroid2020 structure,CREATE_PROCESS`_____,float64,Modeling feature,True,True,0,43
+Android / CICMalDroid2020 structure,CREATE_THREAD_____,float64,Modeling feature,True,True,0,197
+Android / CICMalDroid2020 structure,DEVICE_ACCESS_____,float64,Modeling feature,True,True,0,319
+Android / CICMalDroid2020 structure,EXECUTE_____,float64,Modeling feature,True,True,0,73
+Android / CICMalDroid2020 structure,FS_ACCESS____,float64,Modeling feature,True,True,0,608
+Android / CICMalDroid2020 structure,FS_ACCESS()____,float64,Modeling feature,True,True,0,136
+Android / CICMalDroid2020 structure,FS_ACCESS(CREATE)____,float64,Modeling feature,True,True,0,237
+Android / CICMalDroid2020 structure,FS_ACCESS(CREATE__APPEND)__,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,FS_ACCESS(CREATE__READ)__,float64,Modeling feature,True,True,0,24
+Android / CICMalDroid2020 structure,FS_ACCESS(CREATE__READ__WRITE),float64,Modeling feature,True,True,0,29
+Android / CICMalDroid2020 structure,FS_ACCESS(CREATE__WRITE)__,float64,Modeling feature,True,True,0,200
+Android / CICMalDroid2020 structure,FS_ACCESS(CREATE__WRITE__APPEND),float64,Modeling feature,True,True,0,37
+Android / CICMalDroid2020 structure,FS_ACCESS(READ)____,float64,Modeling feature,True,True,0,1133
+Android / CICMalDroid2020 structure,FS_ACCESS(READ__WRITE)__,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,FS_ACCESS(WRITE)____,float64,Modeling feature,True,True,0,75
+Android / CICMalDroid2020 structure,FS_PIPE_ACCESS___,float64,Modeling feature,True,True,0,73
+Android / CICMalDroid2020 structure,FS_PIPE_ACCESS()___,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,FS_PIPE_ACCESS(READ)___,float64,Modeling feature,True,True,0,64
+Android / CICMalDroid2020 structure,FS_PIPE_ACCESS(READ__)_,float64,Modeling feature,True,True,0,31
+Android / CICMalDroid2020 structure,FS_PIPE_ACCESS(READ__WRITE)_,float64,Modeling feature,True,True,0,34
+Android / CICMalDroid2020 structure,FS_PIPE_ACCESS(WRITE)___,float64,Modeling feature,True,True,0,51
+Android / CICMalDroid2020 structure,NETWORK_ACCESS____,float64,Modeling feature,True,True,0,74
+Android / CICMalDroid2020 structure,NETWORK_ACCESS()____,float64,Modeling feature,True,True,0,95
+Android / CICMalDroid2020 structure,NETWORK_ACCESS(READ)____,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,NETWORK_ACCESS(READ__WRITE)__,float64,Modeling feature,True,True,0,126
+Android / CICMalDroid2020 structure,NETWORK_ACCESS(READ__WRITE__),float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,NETWORK_ACCESS(WRITE)____,float64,Modeling feature,True,True,0,113
+Android / CICMalDroid2020 structure,NETWORK_ACCESS(WRITE__)__,float64,Modeling feature,True,True,0,16
+Android / CICMalDroid2020 structure,SMS_SEND____,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,TERMINATE_PROCESS,float64,Modeling feature,True,True,0,41
+Android / CICMalDroid2020 structure,TERMINATE_THREAD,float64,Modeling feature,True,True,0,147
+Android / CICMalDroid2020 structure,__arm_nr_cacheflush,float64,Modeling feature,True,True,0,940
+Android / CICMalDroid2020 structure,__arm_nr_set_tls,float64,Modeling feature,True,True,0,212
+Android / CICMalDroid2020 structure,_llseek,float64,Modeling feature,True,True,0,1233
+Android / CICMalDroid2020 structure,_newselect,float64,Modeling feature,True,True,0,246
+Android / CICMalDroid2020 structure,accept,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,access,float64,Modeling feature,True,True,0,1014
+Android / CICMalDroid2020 structure,add,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,addAccessibilityInteractionConnection,float64,Modeling feature,True,True,0,30
+Android / CICMalDroid2020 structure,addAccountExplicitly,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,addClient,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,addPeriodicSync,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,addStatusChangeListener,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,addToDisplay,float64,Modeling feature,True,True,0,48
+Android / CICMalDroid2020 structure,addToDisplayWithoutInputChannel,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,addWithoutInputChannel,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,attachEngine,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,beginRestoreSession,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,bind,float64,Modeling feature,True,True,0,137
+Android / CICMalDroid2020 structure,brk,float64,Modeling feature,True,True,0,974
+Android / CICMalDroid2020 structure,cancelAllNotifications,float64,Modeling feature,True,True,0,8
+Android / CICMalDroid2020 structure,cancelNotificationWithTag,float64,Modeling feature,True,True,0,22
+Android / CICMalDroid2020 structure,cancelSync,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,cancelToast,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,cancelVibrate,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,capset,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,chdir,float64,Modeling feature,True,True,0,14
+Android / CICMalDroid2020 structure,checkOperation,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,checkPackage,float64,Modeling feature,True,True,0,16
+Android / CICMalDroid2020 structure,checkPermission,float64,Modeling feature,True,True,0,76
+Android / CICMalDroid2020 structure,checkSignatures,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,chmod,float64,Modeling feature,True,True,0,196
+Android / CICMalDroid2020 structure,chown32,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,clock_getres,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,clock_gettime,float64,Modeling feature,True,True,360,5718
+Android / CICMalDroid2020 structure,clone,float64,Modeling feature,True,True,0,197
+Android / CICMalDroid2020 structure,close,float64,Modeling feature,True,True,0,1829
+Android / CICMalDroid2020 structure,collapsePanels,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,connect,float64,Modeling feature,True,True,0,189
+Android / CICMalDroid2020 structure,currentToCanonicalPackageNames,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,dataChanged,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,deleteHost,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,disconnect,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,displayCompletions,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,dup,float64,Modeling feature,True,True,0,246
+Android / CICMalDroid2020 structure,dup2,float64,Modeling feature,True,True,0,44
+Android / CICMalDroid2020 structure,endRestoreSession,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,engineShown,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,enqueueNotificationWithTag,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,enqueueToast,float64,Modeling feature,True,True,0,21
+Android / CICMalDroid2020 structure,epoll_create,float64,Modeling feature,True,True,0,37
+Android / CICMalDroid2020 structure,epoll_ctl,float64,Modeling feature,True,True,0,268
+Android / CICMalDroid2020 structure,epoll_wait,float64,Modeling feature,True,True,0,3202
+Android / CICMalDroid2020 structure,eventfd2,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,execve,float64,Modeling feature,True,True,0,73
+Android / CICMalDroid2020 structure,exit,float64,Modeling feature,True,True,0,147
+Android / CICMalDroid2020 structure,exit_group,float64,Modeling feature,True,True,0,41
+Android / CICMalDroid2020 structure,faccessat,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,fchmod,float64,Modeling feature,True,True,0,24
+Android / CICMalDroid2020 structure,fchown32,float64,Modeling feature,True,True,0,432
+Android / CICMalDroid2020 structure,fcntl,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,fcntl64,float64,Modeling feature,True,True,0,1565
+Android / CICMalDroid2020 structure,fdatasync,float64,Modeling feature,True,True,0,212
+Android / CICMalDroid2020 structure,finishDrawing,float64,Modeling feature,True,True,0,64
+Android / CICMalDroid2020 structure,finishInput,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,finishSpellCheckerService,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,flock,float64,Modeling feature,True,True,0,40
+Android / CICMalDroid2020 structure,fork,float64,Modeling feature,True,True,0,43
+Android / CICMalDroid2020 structure,fstat64,float64,Modeling feature,True,True,0,1782
+Android / CICMalDroid2020 structure,fstatfs64,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,fsync,float64,Modeling feature,True,True,0,139
+Android / CICMalDroid2020 structure,ftruncate,float64,Modeling feature,True,True,0,245
+Android / CICMalDroid2020 structure,ftruncate64,float64,Modeling feature,True,True,0,20
+Android / CICMalDroid2020 structure,futex,float64,Modeling feature,True,True,0,4614
+Android / CICMalDroid2020 structure,geocoderIsPresent,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getAccounts,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,getAccountsAsUser,float64,Modeling feature,True,True,0,22
+Android / CICMalDroid2020 structure,getActiveAdmins,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getActiveNetworkInfo,float64,Modeling feature,True,True,0,194
+Android / CICMalDroid2020 structure,getActivePhoneType,float64,Modeling feature,True,True,0,96
+Android / CICMalDroid2020 structure,getActivityInfo,float64,Modeling feature,True,True,0,40
+Android / CICMalDroid2020 structure,getAllCellInfo,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,getAllNetworkInfo,float64,Modeling feature,True,True,0,48
+Android / CICMalDroid2020 structure,getAllPkgUsageStats,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getAllProviders,float64,Modeling feature,True,True,0,14
+Android / CICMalDroid2020 structure,getAnimationScale,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getAppWidgetIds,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,getAppWidgetInfo,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getApplicationEnabledSetting,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,getApplicationInfo,float64,Modeling feature,True,True,0,115
+Android / CICMalDroid2020 structure,getApplicationRestrictions,float64,Modeling feature,True,True,0,24
+Android / CICMalDroid2020 structure,getAuthenticatorTypes,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getBestProvider,float64,Modeling feature,True,True,0,9
+Android / CICMalDroid2020 structure,getBoolean,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getCallState,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,getCameraDisabled,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getCameraInfo,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,getCellLocation,float64,Modeling feature,True,True,0,55
+Android / CICMalDroid2020 structure,getClientDefaultLanguage,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getComponentEnabledSetting,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,getConfiguredNetworks,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getConnectionInfo,float64,Modeling feature,True,True,0,110
+Android / CICMalDroid2020 structure,getCurrentInputMethodSubtype,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getCurrentModeType,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getCurrentSpellChecker,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,getCurrentSpellCheckerSubtype,float64,Modeling feature,True,True,0,65
+Android / CICMalDroid2020 structure,getDataActivity,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getDataNetworkType,float64,Modeling feature,True,True,0,73
+Android / CICMalDroid2020 structure,getDataState,float64,Modeling feature,True,True,0,9
+Android / CICMalDroid2020 structure,getDeviceId,float64,Modeling feature,True,True,0,115
+Android / CICMalDroid2020 structure,getDeviceList,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getDeviceOwner,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getDeviceSvn,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,getDhcpInfo,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getDisplayFrame,float64,Modeling feature,True,True,0,16
+Android / CICMalDroid2020 structure,getDisplayIds,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getDisplayInfo,float64,Modeling feature,True,True,0,158
+Android / CICMalDroid2020 structure,getEnabledAccessibilityServiceList,float64,Modeling feature,True,True,0,22
+Android / CICMalDroid2020 structure,getEnabledInputMethodList,float64,Modeling feature,True,True,0,16
+Android / CICMalDroid2020 structure,getEnabledInputMethodSubtypeList,float64,Modeling feature,True,True,0,13
+Android / CICMalDroid2020 structure,getFlashlightEnabled,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getFromLocation,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,getGlobalSearchActivity,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getGroupIdLevel1,float64,Constant feature — excluded from modeling,False,False,0,1
+Android / CICMalDroid2020 structure,getHeightHint,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getIccSerialNumber,float64,Modeling feature,True,True,0,72
+Android / CICMalDroid2020 structure,getInTouchMode,float64,Modeling feature,True,True,0,51
+Android / CICMalDroid2020 structure,getInputDevice,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,getInputDeviceIds,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getInputMethodList,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,getInstallLocation,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getInstalledApplications,float64,Modeling feature,True,True,0,16
+Android / CICMalDroid2020 structure,getInstalledPackages,float64,Modeling feature,True,True,0,25
+Android / CICMalDroid2020 structure,getInstalledProviders,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getInstallerPackageName,float64,Modeling feature,True,True,0,29
+Android / CICMalDroid2020 structure,getIsSyncable,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getLastChosenActivity,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getLastInputMethodSubtype,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getLastLocation,float64,Modeling feature,True,True,0,40
+Android / CICMalDroid2020 structure,getLine1Number,float64,Modeling feature,True,True,0,43
+Android / CICMalDroid2020 structure,getLong,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getMasterSyncAutomatically,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getMessenger,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getMobileDataEnabled,float64,Modeling feature,True,True,0,9
+Android / CICMalDroid2020 structure,getMobileIfaces,float64,Modeling feature,True,True,0,8
+Android / CICMalDroid2020 structure,getMode,float64,Modeling feature,True,True,0,19
+Android / CICMalDroid2020 structure,getNameForUid,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,getNeighboringCellInfo,float64,Modeling feature,True,True,0,18
+Android / CICMalDroid2020 structure,getNetworkInfo,float64,Modeling feature,True,True,0,62
+Android / CICMalDroid2020 structure,getNetworkPreference,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getNightMode,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,getNumberOfCameras,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,getPackageGids,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getPackageInfo,float64,Modeling feature,True,True,0,186
+Android / CICMalDroid2020 structure,getPackageSizeInfo,float64,Modeling feature,True,True,0,12
+Android / CICMalDroid2020 structure,getPackagesForUid,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,getPassword,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getPermissionGroupInfo,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getPermissionInfo,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getPreferredActivities,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getPreferredPackages,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getPrimaryClip,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getProviderInfo,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getProviderProperties,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,getProviders,float64,Modeling feature,True,True,0,13
+Android / CICMalDroid2020 structure,getProxy,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getReceiverInfo,float64,Modeling feature,True,True,0,20
+Android / CICMalDroid2020 structure,getRingerMode,float64,Modeling feature,True,True,0,20
+Android / CICMalDroid2020 structure,getRingtonePlayer,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getScanResults,float64,Modeling feature,True,True,0,15
+Android / CICMalDroid2020 structure,getSearchableInfo,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,getSearchablesInGlobalSearch,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getServiceInfo,float64,Modeling feature,True,True,0,28
+Android / CICMalDroid2020 structure,getSpellCheckerService,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,getState,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getStorageEncryptionStatus,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,getStreamMaxVolume,float64,Modeling feature,True,True,0,16
+Android / CICMalDroid2020 structure,getStreamVolume,float64,Modeling feature,True,True,0,39
+Android / CICMalDroid2020 structure,getString,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getSubscriberId,float64,Modeling feature,True,True,0,110
+Android / CICMalDroid2020 structure,getSyncAutomatically,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getSystemAvailableFeatures,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getSystemSharedLibraryNames,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,getTetheredIfaces,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getUserData,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getUserIcon,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getUserRestrictions,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getUserSerialNumber,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getUsers,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getVibrateSetting,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getVoiceMailAlphaTag,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getVoiceMailNumber,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getWallpaper,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getWallpaperInfo,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,getWidthHint,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,getWifiApConfiguration,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getWifiApEnabledState,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,getWifiDisplayStatus,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getWifiEnabledState,float64,Modeling feature,True,True,0,33
+Android / CICMalDroid2020 structure,getWifiServiceMessenger,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getcwd,float64,Modeling feature,True,True,0,22
+Android / CICMalDroid2020 structure,getdents64,float64,Modeling feature,True,True,0,248
+Android / CICMalDroid2020 structure,getegid32,float64,Modeling feature,True,True,0,19
+Android / CICMalDroid2020 structure,geteuid32,float64,Modeling feature,True,True,0,25
+Android / CICMalDroid2020 structure,getgid32,float64,Modeling feature,True,True,0,19
+Android / CICMalDroid2020 structure,getgroups32,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,getpeername,float64,Modeling feature,True,True,0,8
+Android / CICMalDroid2020 structure,getpgid,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,getpid,float64,Modeling feature,True,True,0,3390
+Android / CICMalDroid2020 structure,getppid,float64,Modeling feature,True,True,0,25
+Android / CICMalDroid2020 structure,getpriority,float64,Modeling feature,True,True,0,471
+Android / CICMalDroid2020 structure,getresgid32,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getresuid32,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,getrusage,float64,Modeling feature,True,True,0,20
+Android / CICMalDroid2020 structure,getsockname,float64,Modeling feature,True,True,0,186
+Android / CICMalDroid2020 structure,getsockopt,float64,Modeling feature,True,True,0,372
+Android / CICMalDroid2020 structure,gettid,float64,Modeling feature,True,True,0,819
+Android / CICMalDroid2020 structure,gettimeofday,float64,Modeling feature,True,True,282,2928
+Android / CICMalDroid2020 structure,getuid32,float64,Modeling feature,True,True,0,3533
+Android / CICMalDroid2020 structure,hasClipboardText,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,hasIccCard,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,hasKeys,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,hasNamedWallpaper,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,hasNavigationBar,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,hasPrimaryClip,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,hasSystemFeature,float64,Modeling feature,True,True,0,40
+Android / CICMalDroid2020 structure,hasVibrator,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,hideSoftInput,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,inKeyguardRestrictedInputMode,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,inotify_add_watch,float64,Modeling feature,True,True,0,48
+Android / CICMalDroid2020 structure,inotify_init,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,inotify_rm_watch,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,ioctl,float64,Modeling feature,True,True,0,2979
+Android / CICMalDroid2020 structure,isActiveNetworkMetered,float64,Modeling feature,True,True,0,14
+Android / CICMalDroid2020 structure,isAdminActive,float64,Modeling feature,True,True,0,76
+Android / CICMalDroid2020 structure,isBluetoothA2dpOn,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,isBluetoothScoOn,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,isCameraSoundForced,float64,Modeling feature,True,True,0,12
+Android / CICMalDroid2020 structure,isImsSmsSupported,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,isKeyguardLocked,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,isKeyguardSecure,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,isPackageAvailable,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,isProviderEnabled,float64,Modeling feature,True,True,0,21
+Android / CICMalDroid2020 structure,isSafeMode,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,isScanAlwaysAvailable,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,isScreenOn,float64,Modeling feature,True,True,0,84
+Android / CICMalDroid2020 structure,isSpeakerphoneOn,float64,Modeling feature,True,True,0,19
+Android / CICMalDroid2020 structure,isSpellCheckerEnabled,float64,Modeling feature,True,True,0,60
+Android / CICMalDroid2020 structure,isSyncActive,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,isWakeLockLevelSupported,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,lgetxattr,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,link,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,listen,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,locationCallbackFinished,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,lseek,float64,Modeling feature,True,True,0,417
+Android / CICMalDroid2020 structure,lstat64,float64,Modeling feature,True,True,0,327
+Android / CICMalDroid2020 structure,madvise,float64,Modeling feature,True,True,0,1278
+Android / CICMalDroid2020 structure,mkdir,float64,Modeling feature,True,True,0,111
+Android / CICMalDroid2020 structure,mknod,float64,Modeling feature,True,True,0,8
+Android / CICMalDroid2020 structure,mlock,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,mmap2,float64,Modeling feature,True,True,0,1229
+Android / CICMalDroid2020 structure,mount,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,mprotect,float64,Modeling feature,True,True,0,1902
+Android / CICMalDroid2020 structure,mremap,float64,Modeling feature,True,True,0,14
+Android / CICMalDroid2020 structure,msync,float64,Modeling feature,True,True,0,14
+Android / CICMalDroid2020 structure,munlock,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,munmap,float64,Modeling feature,True,True,0,847
+Android / CICMalDroid2020 structure,nanosleep,float64,Modeling feature,True,True,0,1300
+Android / CICMalDroid2020 structure,notifyAppWidgetViewDataChanged,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,notifyChange,float64,Modeling feature,True,True,0,50
+Android / CICMalDroid2020 structure,onChange,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,onClose,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,onFinished,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,onGetSentenceSuggestionsMultiple,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,onRectangleOnScreenRequested,float64,Modeling feature,True,True,0,63
+Android / CICMalDroid2020 structure,onRequestContinued,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,onResult,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,open,float64,Modeling feature,True,True,0,1593
+Android / CICMalDroid2020 structure,openSession,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,partiallyUpdateAppWidgetIds,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,performDeferredDestroy,float64,Modeling feature,True,True,0,19
+Android / CICMalDroid2020 structure,pingSupplicant,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,pipe,float64,Modeling feature,True,True,0,128
+Android / CICMalDroid2020 structure,pipe2,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,play,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,playSoundEffect,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,playSoundEffectVolume,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,poll,float64,Modeling feature,True,True,0,139
+Android / CICMalDroid2020 structure,prctl,float64,Modeling feature,True,True,0,432
+Android / CICMalDroid2020 structure,pread64,float64,Modeling feature,True,True,0,822
+Android / CICMalDroid2020 structure,prepareVpn,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,ptrace,float64,Modeling feature,True,True,0,18
+Android / CICMalDroid2020 structure,pwrite64,float64,Modeling feature,True,True,0,823
+Android / CICMalDroid2020 structure,queryContentProviders,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,queryIntentActivities,float64,Modeling feature,True,True,0,60
+Android / CICMalDroid2020 structure,queryIntentContentProviders,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,queryIntentReceivers,float64,Modeling feature,True,True,0,30
+Android / CICMalDroid2020 structure,queryIntentServices,float64,Modeling feature,True,True,0,36
+Android / CICMalDroid2020 structure,read,float64,Modeling feature,True,True,267,3921
+Android / CICMalDroid2020 structure,readlink,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,reassociate,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,recvfrom,float64,Modeling feature,True,True,0,1985
+Android / CICMalDroid2020 structure,recvmsg,float64,Modeling feature,True,True,0,122
+Android / CICMalDroid2020 structure,reenableKeyguard,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,registerCallback,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,registerContentObserver,float64,Modeling feature,True,True,0,62
+Android / CICMalDroid2020 structure,registerInputDevicesChangedListener,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,registerMediaButtonIntent,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,registerRemoteControlClient,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,registerSuggestionSpansForNotification,float64,Constant feature — excluded from modeling,False,False,0,1
+Android / CICMalDroid2020 structure,relayout,float64,Modeling feature,True,True,0,88
+Android / CICMalDroid2020 structure,releaseMulticastLock,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,releaseWakeLock,float64,Modeling feature,True,True,0,34
+Android / CICMalDroid2020 structure,releaseWifiLock,float64,Modeling feature,True,True,0,8
+Android / CICMalDroid2020 structure,remove,float64,Modeling feature,True,True,0,37
+Android / CICMalDroid2020 structure,removeAccessibilityInteractionConnection,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,removeActiveAdmin,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,removeGpsStatusListener,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,removePrimaryClipChangedListener,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,removeStatusChangeListener,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,rename,float64,Modeling feature,True,True,0,137
+Android / CICMalDroid2020 structure,requestLocationUpdates,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,requestScanFile,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,resolveContentProvider,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,resolveIntent,float64,Modeling feature,True,True,0,39
+Android / CICMalDroid2020 structure,resolveService,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,restorePackage,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,rmdir,float64,Modeling feature,True,True,0,13
+Android / CICMalDroid2020 structure,rt_sigprocmask,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,rt_sigtimedwait,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,sched_get_priority_max,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,sched_get_priority_min,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,sched_getparam,float64,Modeling feature,True,True,0,84
+Android / CICMalDroid2020 structure,sched_getscheduler,float64,Modeling feature,True,True,0,84
+Android / CICMalDroid2020 structure,sched_setaffinity,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,sched_setscheduler,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,sched_yield,float64,Modeling feature,True,True,322,854
+Android / CICMalDroid2020 structure,send,float64,Modeling feature,True,True,0,13
+Android / CICMalDroid2020 structure,sendAccessibilityEvent,float64,Modeling feature,True,True,0,74
+Android / CICMalDroid2020 structure,sendExtraCommand,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,sendMultipartText,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,sendText,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,sendmsg,float64,Modeling feature,True,True,0,122
+Android / CICMalDroid2020 structure,sendto,float64,Modeling feature,True,True,0,226
+Android / CICMalDroid2020 structure,set,float64,Modeling feature,True,True,0,35
+Android / CICMalDroid2020 structure,setApplicationEnabledSetting,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setCallback,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,setComponentEnabledSetting,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,setDimensionHints,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setDiscoveryRequest,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,setExtractedText,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setFlashlightEnabled,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setIconVisibility,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setInTouchMode,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setIsSyncable,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setMetadata,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setMobileDataEnabled,float64,Modeling feature,True,True,0,13
+Android / CICMalDroid2020 structure,setMode,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,setNetworkPreference,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setNightMode,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setPlaybackState,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setPlaybackStateForRcc,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setPrimaryClip,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setRadio,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setRingerMode,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,setSpeakerphoneOn,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setStreamMute,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,setStreamVolume,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,setSyncAutomatically,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setTextAfterCursor,float64,Modeling feature,True,True,0,27
+Android / CICMalDroid2020 structure,setTextBeforeCursor,float64,Modeling feature,True,True,0,40
+Android / CICMalDroid2020 structure,setTransparentRegion,float64,Modeling feature,True,True,0,8
+Android / CICMalDroid2020 structure,setTransportControlInfo,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setWallpaper,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setWallpaperPosition,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setWifiApConfiguration,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setWifiApEnabled,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setWifiEnabled,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,setgid32,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setgroups32,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,setitimer,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,setpgid,float64,Modeling feature,True,True,0,10
+Android / CICMalDroid2020 structure,setpriority,float64,Modeling feature,True,True,0,244
+Android / CICMalDroid2020 structure,setresgid32,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setresuid32,float64,Modeling feature,True,True,0,6
+Android / CICMalDroid2020 structure,setrlimit,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,setsid,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,setsockopt,float64,Modeling feature,True,True,0,341
+Android / CICMalDroid2020 structure,setuid32,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,showSoftInput,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,showStrictModeViolation,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,shutdown,float64,Modeling feature,True,True,0,59
+Android / CICMalDroid2020 structure,sigaction,float64,Modeling feature,True,True,0,177
+Android / CICMalDroid2020 structure,sigaltstack,float64,Modeling feature,True,True,0,299
+Android / CICMalDroid2020 structure,sigprocmask,float64,Modeling feature,True,True,0,886
+Android / CICMalDroid2020 structure,sigsuspend,float64,Modeling feature,True,True,0,17
+Android / CICMalDroid2020 structure,socket,float64,Modeling feature,True,True,0,237
+Android / CICMalDroid2020 structure,socketpair,float64,Modeling feature,True,True,0,14
+Android / CICMalDroid2020 structure,startBluetoothSco,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,startInput,float64,Modeling feature,True,True,0,5
+Android / CICMalDroid2020 structure,startScan,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,startWatchingRoutes,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,startWifiDisplayScan,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,stat64,float64,Modeling feature,True,True,0,925
+Android / CICMalDroid2020 structure,statfs64,float64,Modeling feature,True,True,0,62
+Android / CICMalDroid2020 structure,statusBarVisibilityChanged,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,stop,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,stopListening,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,stopUsingNetworkFeature,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,symlink,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,sync,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,sysinfo,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,timer_create,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,timer_settime,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,toggleSoftInput,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,truncate,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,ugetrlimit,float64,Modeling feature,True,True,0,41
+Android / CICMalDroid2020 structure,umask,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,uname,float64,Modeling feature,True,True,0,11
+Android / CICMalDroid2020 structure,unlink,float64,Modeling feature,True,True,0,145
+Android / CICMalDroid2020 structure,unregisterContentObserver,float64,Modeling feature,True,True,0,47
+Android / CICMalDroid2020 structure,unregisterMediaButtonIntent,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,unregisterRemoteControlClient,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,updateAppWidgetIds,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,updateAppWidgetProvider,float64,Modeling feature,True,True,0,7
+Android / CICMalDroid2020 structure,updateSelection,float64,Modeling feature,True,True,0,35
+Android / CICMalDroid2020 structure,updateServiceLocation,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,utimes,float64,Modeling feature,True,True,0,29
+Android / CICMalDroid2020 structure,vfork,float64,Modeling feature,True,True,0,15
+Android / CICMalDroid2020 structure,vibrate,float64,Modeling feature,True,True,0,4
+Android / CICMalDroid2020 structure,vibratePattern,float64,Modeling feature,True,True,0,3
+Android / CICMalDroid2020 structure,wait4,float64,Modeling feature,True,True,0,133
+Android / CICMalDroid2020 structure,watchRotation,float64,Modeling feature,True,True,0,2
+Android / CICMalDroid2020 structure,windowGainedFocus,float64,Modeling feature,True,True,0,25
+Android / CICMalDroid2020 structure,write,float64,Modeling feature,True,True,0,3424
+Android / CICMalDroid2020 structure,writev,float64,Modeling feature,True,True,335,1976
+Android / CICMalDroid2020 structure,Class,str,Observed class label / downstream target,False,True,0,5
+Android / CICMalDroid2020 structure,attack_type,str,Attack mechanism metadata,False,False,0,8
+Android / CICMalDroid2020 structure,original_label,str,Reference/original label,False,False,0,5
+Android / CICMalDroid2020 structure,source_index,int64,Source/provenance metadata,False,False,0,784
+Android / CICMalDroid2020 structure,poisoned,int64,Evaluation target,False,False,0,2

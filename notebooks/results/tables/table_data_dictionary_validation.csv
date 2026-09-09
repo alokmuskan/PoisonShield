@@ -1,0 +1,3 @@
+dataset,dictionary_columns_match,anomaly_feature_count,anomaly_count_pass,constant_feature_count,constant_count_pass,leakage_variables,leakage_pass,PHASE_2_12_PASS
+CIC-MalMem-2022,True,52,True,3,True,[],True,True
+Android / CICMalDroid2020 structure,True,468,True,2,True,[],True,True

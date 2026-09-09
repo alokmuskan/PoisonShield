@@ -1,0 +1,6 @@
+variable,role,allowed_in_anomaly_model,allowed_in_downstream_model,allowed_for_evaluation,reason
+attack_type,Attack mechanism metadata,False,False,True,"Used only for attack-specific evaluation, stratification, and robustness analysis."
+source_index,Source/provenance metadata,False,False,True,"Used for provenance and duplication validation, not prediction."
+poisoned,Evaluation target,False,False,True,Derived target: 1 when attack_type is not clean; never a model predictor.
+original_label,Reference/original class label,False,False,True,"Used for label-consistency analysis and reference information, not prediction."
+Class,Observed class label,False,True,True,"Used as the downstream malware-classification target, never as an anomaly predictor."

@@ -1,0 +1,5 @@
+group,observations,rows_with_outlier,row_outlier_percentage,dataset
+clean,42202,12801,30.332685654708307,CIC-MalMem-2022
+poisoned,16394,11408,69.58643406124192,CIC-MalMem-2022
+clean,6117,5340,87.29769494850417,Android
+poisoned,5481,4818,87.90366721401203,Android

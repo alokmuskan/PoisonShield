@@ -1,0 +1,6 @@
+dataset,feature,missing_count,missing_percentage
+CIC-MalMem-2022,svcscan.kernel_drivers,970,1.6554030991876578
+CIC-MalMem-2022,malfind.commitCharge,941,1.6059116663253463
+CIC-MalMem-2022,dlllist.ndlls,933,1.5922588572598813
+CIC-MalMem-2022,pslist.avg_handlers,921,1.5717796436616835
+CIC-MalMem-2022,handles.nhandles,919,1.5683664413953171

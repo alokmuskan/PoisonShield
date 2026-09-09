@@ -1,0 +1,17 @@
+dataset,attack_type,observations,outlier_cells,rows_with_outlier,row_outlier_percentage
+CIC-MalMem-2022,clean,42202,78644,12801,30.332685654708307
+CIC-MalMem-2022,gaussian_noise_injection,2342,13069,2342,100.0
+CIC-MalMem-2022,outlier_injection,2342,10319,2342,100.0
+CIC-MalMem-2022,feature_poisoning,2342,9597,2342,100.0
+CIC-MalMem-2022,backdoor_injection,2342,7961,2342,100.0
+CIC-MalMem-2022,missing_value_injection,2342,3364,669,28.56532877882152
+CIC-MalMem-2022,sample_duplication,2342,3339,701,29.931682322801024
+CIC-MalMem-2022,label_flipping,2342,3086,670,28.60802732707088
+Android,clean,6117,145522,5340,87.29769494850417
+Android,outlier_injection,783,14105,783,100.0
+Android,backdoor_injection,783,13886,783,100.0
+Android,label_flipping,783,13745,659,84.16347381864622
+Android,missing_value_injection,783,12549,648,82.75862068965517
+Android,sample_duplication,783,12446,648,82.75862068965517
+Android,gaussian_noise_injection,783,12193,647,82.6309067688378
+Android,feature_poisoning,783,11784,650,83.0140485312899

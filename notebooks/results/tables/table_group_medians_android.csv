@@ -1,0 +1,9 @@
+attack_type,clock_gettime,futex,getCurrentInputMethodSubtype,getPermissionGroupInfo,getresgid32,gettimeofday,ioctl,read,sched_yield,setRadio,timer_settime,writev
+backdoor_injection,12807830.0,289.0,0.0,0.0,0.0,25718520.0,233.0,312.0,36974100.0,0.0,0.0,34.0
+clean,1455.0,555.0,0.0,0.0,0.0,140.0,370.0,591.0,2.0,0.0,0.0,58.0
+feature_poisoning,1073.0,72.2480113756646,0.0,0.0,0.0,24.0,0.0,90.78367646254044,1.0,0.0,0.0,7.980413530981785
+gaussian_noise_injection,1075.0,287.0,0.0,0.0,0.0,27.0,244.0,325.0,1.0,0.0,0.0,31.0
+label_flipping,1092.0,307.0,0.0,0.0,0.0,39.0,251.0,450.0,1.0,0.0,0.0,36.0
+missing_value_injection,1032.0,280.0,0.0,0.0,0.0,36.0,244.0,570.0,1.0,0.0,0.0,31.5
+outlier_injection,29683.364021168505,284.0,0.0,0.0,0.0,1091.5559556819333,248.0,389.0,44.8562793681463,0.0,0.0,32.0
+sample_duplication,942.0,286.0,0.0,0.0,0.0,36.0,235.0,519.0,1.0,0.0,0.0,35.0

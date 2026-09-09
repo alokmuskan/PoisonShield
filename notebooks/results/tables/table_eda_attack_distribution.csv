@@ -1,0 +1,17 @@
+attack_type,dataset,count,percentage
+clean,CIC-MalMem-2022,42202,72.0219810225954
+backdoor_injection,CIC-MalMem-2022,2342,3.996859853914943
+gaussian_noise_injection,CIC-MalMem-2022,2342,3.996859853914943
+label_flipping,CIC-MalMem-2022,2342,3.996859853914943
+feature_poisoning,CIC-MalMem-2022,2342,3.996859853914943
+missing_value_injection,CIC-MalMem-2022,2342,3.996859853914943
+outlier_injection,CIC-MalMem-2022,2342,3.996859853914943
+sample_duplication,CIC-MalMem-2022,2342,3.996859853914943
+clean,Android / CICMalDroid2020 structure,6117,52.74185204345577
+backdoor_injection,Android / CICMalDroid2020 structure,783,6.751163993792034
+feature_poisoning,Android / CICMalDroid2020 structure,783,6.751163993792034
+missing_value_injection,Android / CICMalDroid2020 structure,783,6.751163993792034
+gaussian_noise_injection,Android / CICMalDroid2020 structure,783,6.751163993792034
+label_flipping,Android / CICMalDroid2020 structure,783,6.751163993792034
+outlier_injection,Android / CICMalDroid2020 structure,783,6.751163993792034
+sample_duplication,Android / CICMalDroid2020 structure,783,6.751163993792034

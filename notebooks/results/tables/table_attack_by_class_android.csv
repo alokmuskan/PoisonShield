@@ -1,0 +1,9 @@
+attack_type,Adware,Banking,Benign,Riskware,SMS malware
+backdoor_injection,0,0,783,0,0
+clean,553,924,1795,1125,1720
+feature_poisoning,100,168,0,203,312
+gaussian_noise_injection,100,168,0,203,312
+label_flipping,0,0,783,0,0
+missing_value_injection,100,168,0,203,312
+outlier_injection,100,168,0,203,312
+sample_duplication,100,168,0,203,312
