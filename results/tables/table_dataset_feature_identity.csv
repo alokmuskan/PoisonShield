@@ -1,0 +1,3 @@
+dataset,local_substantive_features,expected_substantive_features,match
+CIC-MalMem-2022,55,55,True
+Android / CICMalDroid2020 structure,470,470,True

@@ -1,0 +1,5 @@
+dataset_role,local_file,working_name,rows,columns,substantive_numeric_features,provisional_identity
+Primary malware poisoning dataset,cic_malmem2022_poisoned.csv,CIC-MalMem-2022,58596,60,55,CIC-MalMem-2022
+Primary Android poisoning dataset,cccs_andmal2020_poisoned.csv,Android,11598,475,470,CICMalDroid2020-structured feature file
+Separate class-imbalance audit,cic_malmem2022_removed_audit.csv,CIC-MalMem-2022 class-imbalance audit,2342,59,55,Separate class-imbalance artifact
+Separate Android class-imbalance audit,cccs_andmal2020_removed_audit.csv,Android class-imbalance audit,783,474,470,Separate class-imbalance artifact

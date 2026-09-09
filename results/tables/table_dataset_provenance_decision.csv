@@ -1,0 +1,4 @@
+dataset,local_file,identity_decision,reason
+CIC-MalMem-2022,cic_malmem2022_poisoned.csv,Retain CIC-MalMem-2022 working identity,Local structure matches the documented CIC-MalMem-2022 dataset configuration.
+Android,cccs_andmal2020_poisoned.csv,Document as CICMalDroid2020-structured Android feature dataset,"Local file has 11,598 rows and 470 substantive features, matching the official CICMalDroid2020 CSV structure; it does not match the scale/category structure of the official CCCS-CIC-AndMal-2020 dataset."
+Android class-imbalance artifact,cccs_andmal2020_removed_audit.csv,Retain as separate class-imbalance audit artifact,Artifact is not part of the seven primary poisoning mechanisms.

@@ -1,0 +1,8 @@
+dataset,class,observations
+CIC-MalMem-2022,Spyware,801
+CIC-MalMem-2022,Ransomware,783
+CIC-MalMem-2022,Trojan,758
+Android,SMS malware,312
+Android,Riskware,203
+Android,Banking,168
+Android,Adware,100
