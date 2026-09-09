@@ -1,0 +1,92 @@
+# ============================================================
+# PoisonShield - Git Ignore
+# ============================================================
+
+# ------------------------------------------------------------
+# Python environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Testing / linting / type checking caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ------------------------------------------------------------
+# Jupyter
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# Local configuration / secrets
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# OS files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------
+# VS Code
+# Keep project settings and extensions tracked
+# ------------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ------------------------------------------------------------
+# Temporary / editor files
+# ------------------------------------------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Large model artifacts
+# ------------------------------------------------------------
+# Ignore by default; important final models can be
+# explicitly added or tracked using Git LFS.
+*.joblib
+*.pickle
+*.pkl
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# ------------------------------------------------------------
+# Raw datasets
+# ------------------------------------------------------------
+# Keep original research datasets outside normal Git tracking.
+# Use Git LFS or an external dataset location for large files.
+data/raw/*
+
+# Keep the folder itself in Git
+!data/raw/.gitkeep
+
+# ------------------------------------------------------------
+# Temporary/generated data
+# ------------------------------------------------------------
+# IMPORTANT:
+# We DO NOT ignore data/processed or data/interim completely.
+# Important processed research artifacts should be versioned.
+#
+# If a temporary file becomes too large, add that specific
+# file/pattern here later.

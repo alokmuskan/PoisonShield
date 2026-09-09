@@ -1,0 +1,53 @@
+project:
+  name: "PoisonShield"
+  version: "1.0"
+
+random_seeds:
+  - 42
+  - 123
+  - 2026
+
+data:
+  android_file: "cccs_andmal2020_poisoned.csv"
+  android_removed_audit_file: "cccs_andmal2020_removed_audit.csv"
+  malmem_file: "cic_malmem2022_poisoned.csv"
+  malmem_removed_audit_file: "cic_malmem2022_removed_audit.csv"
+
+split:
+  train: 0.70
+  validation: 0.15
+  test: 0.15
+
+poisoning_rates:
+  - 0.01
+  - 0.05
+  - 0.10
+  - 0.20
+
+anomaly:
+  model: "IsolationForest"
+  n_estimators: 300
+  contamination: "auto"
+
+anomaly_threshold_percentiles:
+  - 90
+  - 95
+  - 97.5
+  - 99
+
+fusion:
+  alpha_values:
+    - 0.0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.6
+    - 0.7
+    - 0.8
+    - 0.9
+    - 1.0
+
+downstream_model:
+  model: "RandomForest"
