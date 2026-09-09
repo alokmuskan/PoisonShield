@@ -1,0 +1,6 @@
+dataset,feature,unique_count,variance,constant,modeling_decision
+CIC-MalMem-2022,pslist.nprocs64bit,1,0.0,True,exclude_from_modeling
+CIC-MalMem-2022,handles.nport,1,0.0,True,exclude_from_modeling
+CIC-MalMem-2022,svcscan.interactive_process_services,1,0.0,True,exclude_from_modeling
+Android,getGroupIdLevel1,1,0.0,True,exclude_from_modeling
+Android,registerSuggestionSpansForNotification,1,0.0,True,exclude_from_modeling

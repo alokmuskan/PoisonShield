@@ -1,0 +1,3 @@
+dataset,numeric_feature_count,negative_cells,negative_value_pass,infinite_cells,infinite_value_pass,clean_negative_cells,clean_negative_pass,clean_infinite_cells,clean_infinite_pass,poisoned_negative_cells,poisoned_negative_pass,poisoned_infinite_cells,poisoned_infinite_pass,PHASE_2_8_PASS
+CIC-MalMem-2022,55,0,True,0,True,0,True,0,True,0,True,0,True,True
+Android,470,0,True,0,True,0,True,0,True,0,True,0,True,True

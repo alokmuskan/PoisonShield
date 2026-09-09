@@ -1,0 +1,3 @@
+dataset,candidate_features,feature_count_pass,nonnegative_outlier_counts_pass,feature_alignment_pass,attack_type_coverage_pass,automatic_removal,PHASE_2_9_PASS
+CIC-MalMem-2022,52,True,True,True,True,False,True
+Android,468,True,True,True,True,False,True
