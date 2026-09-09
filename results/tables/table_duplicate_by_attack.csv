@@ -1,0 +1,9 @@
+dataset,attack_type,duplicate_rows
+CIC-MalMem-2022,clean,277
+CIC-MalMem-2022,backdoor_injection,8
+CIC-MalMem-2022,label_flipping,6
+Android,clean,38
+Android,label_flipping,5
+Android,backdoor_injection,2
+Android,feature_poisoning,2
+Android,gaussian_noise_injection,2
