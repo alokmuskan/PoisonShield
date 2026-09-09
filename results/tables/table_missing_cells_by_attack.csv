@@ -1,0 +1,17 @@
+dataset,attack_type,missing_cells
+CIC-MalMem-2022,missing_value_injection,4684
+CIC-MalMem-2022,backdoor_injection,0
+CIC-MalMem-2022,feature_poisoning,0
+CIC-MalMem-2022,clean,0
+CIC-MalMem-2022,gaussian_noise_injection,0
+CIC-MalMem-2022,label_flipping,0
+CIC-MalMem-2022,outlier_injection,0
+CIC-MalMem-2022,sample_duplication,0
+Android,missing_value_injection,1566
+Android,backdoor_injection,0
+Android,feature_poisoning,0
+Android,clean,0
+Android,gaussian_noise_injection,0
+Android,label_flipping,0
+Android,outlier_injection,0
+Android,sample_duplication,0

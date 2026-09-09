@@ -1,0 +1,5 @@
+filename,exists,size_bytes
+cic_malmem2022_poisoned.csv,True,17793118
+cic_malmem2022_removed_audit.csv,True,929617
+cccs_andmal2020_poisoned.csv,True,23087296
+cccs_andmal2020_removed_audit.csv,True,1563080
