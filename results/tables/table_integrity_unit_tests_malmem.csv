@@ -1,0 +1,7 @@
+experiment,trusted_rows,observed_rows,unique_trusted_hashes,unique_observed_hashes,added_hashes,removed_hashes,multiplicity_anomalies,matching_hashes,risk_hashes
+I1_untouched,42202,42202,42039,42039,0,0,0,42039,0
+I2_modified_feature,42202,42202,42039,42039,1,1,0,42038,2
+I3_modified_label,42202,42202,42039,42039,1,1,0,42038,2
+I4_added_observation,42202,42203,42039,42040,42040,42039,0,0,84079
+I5_removed_observation,42202,42201,42039,42038,0,1,0,42038,1
+I6_duplicated_observation,42202,42203,42039,42039,0,0,1,42038,1

@@ -1,0 +1,7 @@
+RQ,hypothesis,independent_variable,dependent_variable,evidence,metrics
+RQ1,H1,Defense method,Integrity detection performance,Integrity/reference-consistency evidence,"Precision, Recall, F1"
+RQ2,H1/H2,Anomaly detection,Poison detection performance,Anomaly score,"ROC-AUC, PR-AUC, Recall, F1, FPR, FNR"
+RQ3,H1/H2,Defense architecture,Combined detection performance,Fusion risk,"F1, Recall, Precision, PR-AUC, FPR"
+RQ4,H1,Attack type / poisoning rate,Detection robustness,Attack-specific detection,"Precision, Recall, F1, PR-AUC, FPR, FNR"
+RQ5,H3,Training condition / defense,Clean-test classification performance,Downstream model performance,"Accuracy, Macro Precision, Macro Recall, Macro F1"
+RQ6,H1/H2/H3,Defense method,Security-performance trade-off,"FPR, retention, runtime","FPR, clean retention, poisoned removal, runtime"
