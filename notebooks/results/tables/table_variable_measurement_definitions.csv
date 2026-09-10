@@ -1,0 +1,17 @@
+variable,type,role,anomaly_predictor,evaluation_target,primary_research_question
+attack_type,categorical metadata,attack identification / stratification,False,False,RQ4
+original_label,categorical label,reference classification label,False,False,RQ5
+Class,categorical label,observed classification label,False,False,RQ5
+source_index,numeric metadata,provenance/reference information,False,False,RQ1
+poisoned,binary derived variable,poisoning evaluation target,False,True,RQ2
+anomaly_score,continuous,sample-level anomaly evidence,False,False,RQ2
+anomaly_flag,binary,anomaly decision,False,False,RQ2
+integrity_match,binary,reference-consistency evidence,False,False,RQ1
+integrity_risk,continuous/binary-derived,integrity risk evidence,False,False,RQ1
+anomaly_norm,continuous,normalized anomaly evidence,False,False,RQ3
+risk_score,continuous,fused PoisonShield risk,False,False,RQ3
+poisonshield_flag,binary,final PoisonShield decision,False,False,RQ3
+clean_test_performance,performance metrics,downstream classification outcome,False,True,RQ5
+clean_false_positive_rate,performance metric,legitimate-data removal trade-off,False,True,RQ6
+clean_retention,performance metric,legitimate-data retention,False,True,RQ6
+runtime,computational metric,computational overhead,False,True,RQ6

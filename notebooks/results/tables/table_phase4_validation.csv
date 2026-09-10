@@ -1,0 +1,8 @@
+check,pass
+Required variables,True
+Poisoning target,True
+Anomaly predictor exclusion,True
+Clean reference,True
+Clean classification labels,True
+Experimental conditions and seeds,True
+Measurement mapping,True
