@@ -1,0 +1,9 @@
+check,status,value
+experiment_count,PASS,96
+unique_experiment_combinations,PASS,96
+dataset_count,PASS,2
+poisoning_rate_count,PASS,4
+seed_count,PASS,3
+defense_count,PASS,4
+matched_conditions,PASS,24
+persisted_row_count,PASS,96
