@@ -1,0 +1,6 @@
+construct,measurement,validity_boundary
+Integrity evidence,Reference-consistency / provenance deviation,Does not directly establish attacker intent or maliciousness.
+Anomaly evidence,Feature-space statistical unusualness,Anomalous observations are not necessarily malicious.
+PoisonShield risk,Weighted combination of normalized anomaly and integrity evidence,Risk score represents evidence under the specified reference and detector assumptions.
+Poisoned target,Derived from attack_type for evaluation,Used as evaluation ground truth and excluded from anomaly predictors.
+Downstream performance,Random Forest clean-test classification performance,Measures downstream behavior under the controlled benchmark rather than universal deployment performance.

@@ -1,0 +1,6 @@
+parameter,value,status
+random_seeds,"[42, 123, 2026]",DOCUMENTED
+poisoning_rates,"[0.01, 0.05, 0.1, 0.2]",DOCUMENTED
+threshold_percentiles,"[0.9, 0.95, 0.975, 0.99]",DOCUMENTED
+isolation_forest_n_estimators,300,DOCUMENTED
+downstream_model,Random Forest,DOCUMENTED

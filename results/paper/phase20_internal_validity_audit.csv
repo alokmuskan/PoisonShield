@@ -1,0 +1,9 @@
+criterion,status,evidence
+Raw datasets preserved,PASS,Raw datasets were loaded read-only and no raw-data modification was performed.
+Clean test set protected,PASS,Clean train/validation/test partitioning was established before final evaluation.
+Preprocessing leakage controlled,PASS,Preprocessing was specified to be fitted only on clean training data.
+Anomaly detector trained on clean reference,PASS,Isolation Forest was trained only using clean training data.
+Threshold tuning separated from final evaluation,PASS,Candidate thresholds were selected using clean validation evidence.
+Fusion parameter tuning separated from final evaluation,PASS,PoisonShield α/β and risk-threshold selection were treated as validation-stage decisions.
+Controlled random seeds,PASS,"The research design specifies seeds 42, 123 and 2026."
+Controlled poisoning rates,PASS,"The experimental design specifies 1%, 5%, 10% and 20% poisoning rates."
