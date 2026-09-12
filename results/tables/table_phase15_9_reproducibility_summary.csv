@@ -1,0 +1,8 @@
+parameter,locked_value
+datasets,MalMem; Android
+poisoning_rates,0.01; 0.05; 0.10; 0.20
+seeds,42; 123; 2026
+defenses,E1_No_Defense; E2_Integrity_Only; E3_Anomaly_Only; E4_PoisonShield
+experiment_count,96
+statistical_pairs,3 matched seeds per condition
+clean_test_status,Untouched

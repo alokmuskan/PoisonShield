@@ -1,0 +1,9 @@
+category,status
+Experiment identity,PASS
+Dataset coverage,PASS
+Poisoning-rate coverage,PASS
+Seed coverage,PASS
+Defense coverage,PASS
+Statistical artifact,PASS
+Runtime evidence,Empirical runtime/resource evidence available.
+Memory evidence,No memory measurements persisted; do not report fabricated values.
