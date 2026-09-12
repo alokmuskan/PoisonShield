@@ -1,0 +1,17 @@
+check,status
+canonical_project_root,PASS
+phase12_4_6_artifact_found,PASS
+phase12_4_6_artifact_96_rows,PASS
+phase12_4_6_artifact_25_columns,PASS
+canonical_artifact_persisted,PASS
+experiment_count,PASS
+unique_experiment_ids,PASS
+dataset_coverage,PASS
+rate_coverage,PASS
+seed_coverage,PASS
+defense_coverage,PASS
+unique_experiment_matrix,PASS
+duplicate_matrix,PASS
+four_defenses_per_condition,PASS
+malmem_48_experiments,PASS
+android_48_experiments,PASS
