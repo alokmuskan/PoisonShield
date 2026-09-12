@@ -1,0 +1,15 @@
+Dataset,Attack,Integrity
+Android,backdoor_injection,0.9961832061068704
+Android,feature_poisoning,0.9961832061068704
+Android,gaussian_noise_injection,0.994904458598726
+Android,label_flipping,0.9936224489795918
+Android,missing_value_injection,0.9961832061068704
+Android,outlier_injection,0.9961832061068704
+Android,sample_duplication,0.9961832061068704
+MalMem,backdoor_injection,1.0
+MalMem,feature_poisoning,1.0
+MalMem,gaussian_noise_injection,1.0
+MalMem,label_flipping,1.0
+MalMem,missing_value_injection,1.0
+MalMem,outlier_injection,1.0
+MalMem,sample_duplication,1.0

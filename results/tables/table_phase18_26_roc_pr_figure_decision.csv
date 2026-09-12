@@ -1,0 +1,3 @@
+figure,status,justification
+Figure 4 — ROC Curves,GENERATE,Observation-level prediction scores are persisted and can support empirical ROC curves.
+Figure 5 — Precision-Recall Curves,GENERATE,Observation-level prediction scores are persisted and can support empirical precision-recall curves.

@@ -1,0 +1,9 @@
+artifact,filename,rows
+Phase 12 Main Experiments,table_phase12_4_6_execution_results.csv,96
+Phase 13 Dataset Sensitivity,table_phase13_4d_final_dataset_sensitivity_summary.csv,8
+Phase 14 Ablation,table_phase14_4_final_ablation_summary.csv,12
+Phase 15.6 Statistical Effects,table_phase15_6_statistical_effect_summary.csv,168
+Phase 15.7 Statistical Interpretation,table_phase15_7_statistical_interpretation.csv,4
+Phase 15.8 Final Statistical Reporting,table_phase15_8_final_statistical_reporting.csv,168
+Phase 17.3 Hypothesis Decisions,table_phase17_3_hypothesis_decisions.csv,3
+Phase 17.4 Final Hypothesis Summary,table_phase17_4_final_hypothesis_summary.csv,3
