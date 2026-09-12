@@ -1,0 +1,6 @@
+limitation_area,status,interpretation
+Dataset generalization,LIMITATION,Results are based on two controlled malware benchmark datasets and may not generalize to other domains or continuously evolving datasets.
+Attack generalization,LIMITATION,The experiments cover seven specified poisoning mechanisms; unknown or adaptive attacks remain outside the evaluated attack space.
+Poisoning prevalence,LIMITATION,The controlled poisoning rates are experimental conditions and should not be interpreted as estimates of real-world poisoning prevalence.
+Operational deployment,LIMITATION,The study does not constitute validation in a live production training-data pipeline.
+Adaptive attackers,LIMITATION,An attacker aware of the anomaly detector could attempt to construct low-anomaly poisoning.

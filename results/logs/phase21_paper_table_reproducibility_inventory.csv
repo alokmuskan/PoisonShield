@@ -1,0 +1,13 @@
+paper_table,filename,status
+Table 1,table_attack_distribution.csv,PRESENT
+Table 2,table_attack_distribution.csv,PRESENT
+Table 3,table3_variable_measurement_definitions.csv,PRESENT
+Table 4,table_missingness_overall.csv,PRESENT
+Table 5,table_anomaly_detection_performance.csv,PRESENT
+Table 6,table8_attack_specific_results.csv,PRESENT
+Table 7,attack_specific_detection.csv,PRESENT
+Table 8,table_phase19_8_rq6_detection_tradeoff.csv,MISSING
+Table 9,table_phase19_7_rq5_downstream_comparison.csv,PRESENT
+Table 10,table_phase18_14_ablation_study.csv,PRESENT
+Table 11,table_phase18_11_poisoning_rate_sensitivity.csv,PRESENT
+Table 12,table_phase18_15_statistical_comparison.csv,PRESENT

@@ -1,0 +1,7 @@
+area,limitation
+Isolation Forest,May miss poisoning that closely resembles clean data or is distributed subtly.
+Legitimate rare observations,Legitimate but rare observations may receive high anomaly scores.
+Trusted reference,Integrity verification assumes that a trustworthy reference state is available.
+Compromised reference,The current design does not solve the case where the initial trusted reference is already compromised.
+Android dataset identity,"The supplied Android filename suggests CCCS-AndMal-2020, while the structural characteristics correspond to CICMalDroid2020."
+Benchmark attacks,Controlled attack generation may not capture every characteristic of real-world poisoning.

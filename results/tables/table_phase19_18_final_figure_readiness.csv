@@ -1,0 +1,10 @@
+figure_concept,matched_files,status
+Class / attack distribution,figure_1_attack_distribution.png,PRESENT
+Missingness,figure_2_missingness.png,PRESENT
+Anomaly-score distribution,figure_3_representative_feature_distribution.png,PRESENT
+ROC curves,figure_4_roc_curves.png,PRESENT
+Precision-recall curves,figure_5_precision_recall_curves.png,PRESENT
+Threshold sensitivity,,NOT_IDENTIFIED
+Poisoning-rate sensitivity,figure_16_3_1_accuracy_vs_poisoning_rate.png; figure_16_3_2_macro_f1_vs_poisoning_rate.png; figure_6_poisoning_rate_sensitivity.png,PRESENT
+Downstream performance,figure_7_downstream_performance.png,PRESENT
+PoisonShield architecture,figure_8_poisonshield_architecture.png,PRESENT

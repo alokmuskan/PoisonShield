@@ -1,0 +1,12 @@
+paper_table,artifact,Android,MalMem
+Table 1,table_attack_distribution.csv,True,True
+Table 2,table_attack_distribution.csv,True,True
+Table 4,table_missingness_overall.csv,True,True
+Table 5,table_anomaly_detection_performance.csv,True,True
+Table 6,table8_attack_specific_results.csv,True,True
+Table 7,attack_specific_detection.csv,True,True
+Table 8,table_phase19_8_rq6_detection_retention_tradeoff.csv,True,True
+Table 9,table_phase19_7_rq5_downstream_comparison.csv,True,True
+Table 10,table_phase18_14_ablation_study.csv,True,True
+Table 11,table_phase18_11_poisoning_rate_sensitivity.csv,True,True
+Table 12,table_phase18_15_statistical_comparison.csv,False,False

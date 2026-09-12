@@ -1,0 +1,31 @@
+paper_group,filename,status,rows,columns
+Dataset audit,table_attack_distribution.csv,PRESENT,16.0,4.0
+Dataset audit,table_class_imbalance_class_distribution.csv,PRESENT,7.0,3.0
+Dataset audit,table_missingness_overall.csv,PRESENT,2.0,3.0
+Dataset audit,table_duplicate_by_attack.csv,PRESENT,8.0,3.0
+Dataset audit,table_outlier_by_attack.csv,PRESENT,16.0,6.0
+Dataset audit,table_negative_values_by_attack.csv,PRESENT,16.0,3.0
+Integrity,table_integrity_unit_tests_malmem.csv,PRESENT,6.0,10.0
+Integrity,table_integrity_unit_tests_android.csv,NOT_PRESENT,,
+Integrity,table_phase19_2_rq1_integrity_interpretation.csv,PRESENT,6.0,7.0
+Anomaly,table_anomaly_detection_performance.csv,PRESENT,2.0,13.0
+Anomaly,table_anomaly_attack_specific_malmem.csv,PRESENT,7.0,9.0
+Anomaly,table_anomaly_attack_specific_android.csv,PRESENT,7.0,9.0
+Anomaly,table_phase19_3_rq2_anomaly_interpretation.csv,PRESENT,14.0,9.0
+PoisonShield,table8_attack_specific_results.csv,PRESENT,14.0,7.0
+PoisonShield,table_phase19_4_rq3_poisonshield_interpretation.csv,PRESENT,14.0,12.0
+PoisonShield,table_phase19_4_rq3_summary.csv,NOT_PRESENT,,
+Poisoning-rate robustness,table_phase18_11_poisoning_rate_sensitivity.csv,PRESENT,32.0,8.0
+Poisoning-rate robustness,table_phase19_6_rq4_rate_comparison.csv,PRESENT,8.0,9.0
+Poisoning-rate robustness,table_phase19_6_rq4_rate_summary.csv,PRESENT,2.0,11.0
+Downstream,table_phase10_E1_E4_downstream_comparison.csv,PRESENT,10.0,11.0
+Downstream,table_phase19_7_rq5_downstream_comparison.csv,PRESENT,2.0,8.0
+Downstream,table_phase19_7_rq5_downstream_summary.csv,PRESENT,2.0,8.0
+Ablation,table_phase18_14_ablation_study.csv,PRESENT,12.0,6.0
+Ablation,table_phase19_8_rq6_detection_retention_tradeoff.csv,PRESENT,12.0,6.0
+Ablation,table_phase19_9_rq6_final_interpretation.csv,PRESENT,12.0,6.0
+Research-question synthesis,table_phase19_12_final_rq_synthesis.csv,PRESENT,6.0,5.0
+Hypothesis,table_phase19_11_hypothesis_evaluation.csv,PRESENT,3.0,3.0
+Statistical evidence,table_phase15_5_statistical_summary.csv,NOT_PRESENT,,
+Statistical evidence,table_phase15_7_dataset_statistical_summary.csv,PRESENT,2.0,8.0
+Statistical evidence,table_phase15_8_dataset_statistical_summary.csv,PRESENT,2.0,8.0

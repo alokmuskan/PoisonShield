@@ -1,0 +1,7 @@
+research_question,evidence_domain,interpretation
+RQ1,Integrity / provenance,Integrity evidence measures consistency with the trusted reference state rather than directly establishing maliciousness.
+RQ2,Anomaly detection,Isolation Forest measures statistical unusualness relative to the clean training distribution.
+RQ3,PoisonShield fusion,Fusion combines integrity and anomaly evidence; its benefit must be evaluated empirically rather than assumed from the architecture.
+RQ4,Attack robustness,Detection performance varies according to the statistical characteristics of individual poisoning mechanisms.
+RQ5,Downstream classification,The downstream evaluation determines whether filtering high-risk observations improves clean-test classification performance.
+RQ6,Detection / retention trade-off,"Across the persisted RQ6 ablation results, integrity-only provides the strongest observed detection-retention trade-off for both datasets. The optimized fusion configuration remains highly effective but does not exceed integrity-only on the reported RQ6 criteria."

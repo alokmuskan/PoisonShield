@@ -1,0 +1,4 @@
+hypothesis,evidence_file,comparison
+H1,table_phase19_11_hypothesis_evaluation.csv,PoisonShield vs independent defenses
+H2,table_phase19_11_hypothesis_evaluation.csv,Poisoned recall vs clean-data false-positive rate
+H3,table_phase19_11_hypothesis_evaluation.csv,PoisonShield-filtered vs unfiltered poisoned training

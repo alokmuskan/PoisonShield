@@ -1,0 +1,7 @@
+research_question,evidence_file,primary_evidence
+RQ1,table_phase19_2_rq1_integrity_interpretation.csv,Integrity/provenance detection
+RQ2,table_phase19_3_rq2_anomaly_interpretation.csv,Sample-level anomaly detection
+RQ3,table_phase19_4_rq3_poisonshield_interpretation.csv,PoisonShield fusion
+RQ4,table_phase19_6_rq4_rate_comparison.csv,Attack/rate robustness
+RQ5,table_phase19_7_rq5_downstream_comparison.csv,Downstream model performance
+RQ6,table_phase19_8_rq6_detection_retention_tradeoff.csv,"Detection, retention and trade-offs"

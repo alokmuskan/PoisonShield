@@ -1,0 +1,11 @@
+check,status
+Project paths,PASS
+Required paper tables,PASS
+RQ1-RQ6 coverage,PASS
+H1-H3 coverage,PASS
+Statistical artifact,PASS
+Variable definitions,PASS
+Raw dataset preservation,PASS
+Numerical sanity,PASS
+Evidence inventory,PASS
+Reproducibility readiness,PASS

@@ -1,0 +1,7 @@
+experiment,scenario,expected_integrity_behavior,risk_hashes,added_hashes,removed_hashes,multiplicity_anomalies
+I1_untouched,Untouched dataset,No integrity deviation should be detected,0,0,0,0
+I2_modified_feature,Modified feature,Reference inconsistency should be detected,2,1,1,0
+I3_modified_label,Modified label,Reference inconsistency should be detected,2,1,1,0
+I4_added_observation,Added observation,Added hash should be detected,84079,42040,42039,0
+I5_removed_observation,Removed observation,Removed hash should be detected,1,0,1,0
+I6_duplicated_observation,Duplicated observation,Multiplicity anomaly should be detected,1,0,0,1

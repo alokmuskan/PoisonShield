@@ -1,0 +1,13 @@
+paper_table,title,artifact,shape,status,columns,recommended_use
+Table 1,Dataset characteristics,table_attack_distribution.csv,16 x 4,PRESENT,dataset|attack_type|count|percentage,MAIN PAPER
+Table 2,Attack distribution,table_attack_distribution.csv,16 x 4,PRESENT,dataset|attack_type|count|percentage,MAIN PAPER
+Table 3,Variable and measurement definitions,,,MISSING,,MAIN PAPER / METHODS
+Table 4,Data-quality assessment,table_missingness_overall.csv,2 x 3,PRESENT,dataset|missing_cells|rows_with_missing,MAIN PAPER
+Table 5,Baseline anomaly-detection performance,table_anomaly_detection_performance.csv,2 x 13,PRESENT,dataset|threshold_percentile|precision|recall|f1|roc_auc|pr_auc|fpr|fnr|tn|fp|fn|tp,MAIN PAPER
+Table 6,Integrity-only versus anomaly-only versus PoisonShield,table8_attack_specific_results.csv,14 x 7,PRESENT,dataset|attack_type|Integrity|Anomaly|PoisonShield|PoisonShield_vs_Integrity|PoisonShield_vs_Anomaly,MAIN PAPER
+Table 7,Attack-specific performance,attack_specific_detection.csv,14 x 17,PRESENT,dataset|attack_type|clean_rows|attack_rows|evaluation_rows|threshold|precision|recall|f1|roc_auc|pr_auc|fpr|fnr|tn|fp|fn|tp,MAIN PAPER
+Table 8,Clean-data retention and false-positive removal,table_phase19_8_rq6_detection_retention_tradeoff.csv,12 x 6,PRESENT,dataset|configuration|f1|recall|fpr|retention,MAIN PAPER
+Table 9,Downstream model performance,table_phase19_7_rq5_downstream_comparison.csv,2 x 8,PRESENT,dataset|E1_No_Defense_Macro_F1|E2_Integrity_Only_Macro_F1|E3_Anomaly_Only_Macro_F1|E4_PoisonShield_Macro_F1|PoisonShield_vs_NoDefense|PoisonShield_vs_Integrity|PoisonShield_vs_Anomaly,MAIN PAPER
+Table 10,Ablation study,table_phase18_14_ablation_study.csv,12 x 6,PRESENT,Dataset|Configuration|F1|Recall|FPR|Retention,MAIN PAPER
+Table 11,Controlled poisoning-rate robustness,table_phase18_11_poisoning_rate_sensitivity.csv,32 x 8,PRESENT,dataset|poisoning_rate|defense|n_experiments|accuracy_mean|macro_precision_mean|macro_recall_mean|macro_f1_mean,MAIN PAPER
+Table 12,Statistical comparisons and effect sizes,table_phase18_15_statistical_comparison.csv,168 x 5,PRESENT,Comparison|Mean Difference|CI|Effect Size|Adjusted p-value,MAIN PAPER
