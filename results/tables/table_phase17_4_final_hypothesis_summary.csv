@@ -1,0 +1,4 @@
+hypothesis,research_claim,comparison,decision,evidence_status,interpretation
+H1,PoisonShield detects more poisoning than individual layers.,PoisonShield vs Integrity Only vs Anomaly Only,PARTIALLY SUPPORTED,Primary predefined H1 detection metrics unavailable,"Available Phase 17.2 evidence contains balanced_accuracy, macro_f1, and macro_recall comparisons, but the predefined H1 primary detection metrics (F1, PR-AUC, recall, precision, FPR) are not present. Therefore H1 cannot be formally confirmed from the persisted H1 artifact."
+H2,Adding anomaly detection to integrity verification improves recall while maintaining acceptable FPR.,PoisonShield vs Integrity Only,NOT SUPPORTED,Persisted comparison evidence,Based only on available persisted H2 evidence.
+H3,PoisonShield filtering improves downstream model performance.,PoisonShield vs No Defense / Integrity Only / Anomaly Only,SUPPORTED,Persisted attack-condition evidence,Based only on available persisted H3 evidence.

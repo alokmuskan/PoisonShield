@@ -1,0 +1,6 @@
+item,value
+Persisted H1 metrics,"balanced_accuracy, macro_f1, macro_recall"
+Predefined H1 primary metrics,"F1, PR-AUC, recall, precision, FPR"
+Predefined H1 metrics available,NONE
+Formal H1 evaluation possible,False
+Available-metric positive difference rate,0.625
