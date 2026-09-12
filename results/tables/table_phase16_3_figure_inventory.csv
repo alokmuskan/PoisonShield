@@ -1,0 +1,7 @@
+figure_number,filename,source,status
+1,figure_16_3_1_accuracy_vs_poisoning_rate.png,Phase 12,READY
+2,figure_16_3_2_macro_f1_vs_poisoning_rate.png,Phase 12,READY
+3,figure_16_3_3_poison_removal_rate.png,Phase 12,READY
+4,figure_16_3_4_clean_data_retention.png,Phase 12,READY
+5,figure_16_3_5_dataset_sensitivity.png,Phase 13,READY
+6,figure_16_3_6_ablation_f1.png,Phase 14,READY
