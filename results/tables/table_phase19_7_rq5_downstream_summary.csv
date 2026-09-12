@@ -1,0 +1,3 @@
+dataset,poisonshield_macro_f1,best_comparison,best_macro_f1_gain,comparisons_with_positive_gain,gain_vs_no_defense,gain_vs_integrity,gain_vs_anomaly
+Android,0.9079981550652414,Integrity Only,-0.00683782477774264,0,-0.01660670199251857,-0.00683782477774264,-0.013197499063467788
+MalMem,0.7771012014005344,Integrity Only,-0.010685405062795472,0,-0.06145304527914541,-0.010685405062795472,-0.03710807736102639

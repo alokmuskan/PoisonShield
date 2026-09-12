@@ -1,0 +1,16 @@
+variable,dataset,type,measurement,role,observed_values,anomaly_predictor,integrity_input,evaluation_variable,transformation
+Feature variables,MalMem,Numeric,Memory-derived malware-behavior features,Anomaly-model predictors,Dataset-specific numeric values,YES,YES,NO,Median imputation and standardization fitted only on clean training data
+Feature variables,Android,Numeric,"System-call, binder and composite-behavior frequency features",Anomaly-model predictors,Dataset-specific numeric values,YES,YES,NO,Median imputation and standardization fitted only on clean training data
+Class,Both,Categorical,Observed malware classification label,Downstream classification target / reporting,"MalMem: Benign, Spyware, Ransomware, Trojan; Android: Benign, Adware, Banking, SMS malware, Riskware",NO,YES,YES,None for anomaly detection
+attack_type,Both,Categorical,Poisoning mechanism identifier,Attack identification and stratified evaluation,clean; backdoor_injection; gaussian_noise_injection; label_flipping; feature_poisoning; missing_value_injection; outlier_injection; sample_duplication,NO,NO,YES,None
+original_label,Both,Categorical,Reference/original class label,Label-consistency and attack analysis,Dataset-specific class labels,NO,NO,YES,None
+source_index,Both,Numeric metadata,Source/reference observation identifier,Provenance and duplication analysis,Integer identifier or -1,NO,NO,YES,None
+poisoned,Both,Binary,Derived poisoning-status evaluation target: 1 when attack_type != clean; otherwise 0,Detection evaluation target,0 = clean; 1 = poisoned,NO,NO,YES,Derived from attack_type for evaluation only
+anomaly_score,Both,Continuous,Isolation Forest score oriented so higher values represent greater statistical unusualness,Sample-level anomaly evidence,Continuous score,Derived,NO,YES,Score orientation after model inference
+anomaly_flag,Both,Binary,Thresholded anomaly decision,Anomaly-only detection decision,0 = not flagged; 1 = flagged,Derived,NO,YES,Validation-selected anomaly threshold
+integrity_match,Both,Binary,Whether the observed canonical row matches the trusted reference manifest,Reference-consistency evidence,1 = match; 0 = mismatch,NO,Derived,YES,SHA-256 canonical row comparison
+integrity_risk,Both,Binary / numeric evidence,Risk evidence derived from mismatch with the trusted reference state,Integrity/provenance evidence,0 = consistent; 1 = integrity risk,NO,Derived,YES,Multiplicity-aware manifest comparison
+anomaly_norm,Both,Continuous,Normalized anomaly evidence,Fusion input,Normalized anomaly evidence,NO,NO,YES,Min-max normalization using clean validation anomaly scores
+risk_score,Both,Continuous,Combined poisoning-risk score: alpha × normalized anomaly evidence + beta × integrity risk,PoisonShield fusion output,Continuous risk score,NO,NO,YES,Validation-selected alpha/beta weights
+poisonshield_flag,Both,Binary,Thresholded PoisonShield decision,Combined defense decision,0 = not flagged; 1 = high-risk,NO,NO,YES,Validation-selected risk threshold
+predicted_class,Both,Categorical,Random Forest downstream prediction,Downstream classification output,Dataset-specific class labels,NO,NO,YES,Random Forest prediction

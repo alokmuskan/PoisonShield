@@ -1,0 +1,3 @@
+dataset,best_poisonshield_rate_pct,best_poisonshield_macro_f1,worst_poisonshield_rate_pct,worst_poisonshield_macro_f1,rates_beating_no_defense,rates_beating_integrity,rates_beating_anomaly,mean_gain_vs_no_defense,mean_gain_vs_integrity,mean_gain_vs_anomaly
+Android,10.0,0.911146600302124,5.0,0.9099874790703196,1,3,3,-0.0011030149341290374,0.00040229282900375307,0.0014781998807196772
+MalMem,20.0,0.7966715863026601,1.0,0.77719232303222,0,0,4,-0.009514047898149997,-0.008116312092114358,0.009090026133641793

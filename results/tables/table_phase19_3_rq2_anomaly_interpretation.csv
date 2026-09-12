@@ -1,0 +1,15 @@
+dataset,attack_type,_attack_normalized,precision,recall,f1,f1_rank,recall_rank,interpretation
+Android,outlier_injection,outlier_injection,0.1156069364161849,0.0510855683269476,0.070859167404783,1.0,1.0,Extreme feature values can create stronger feature-space isolation.
+Android,missing_value_injection,missing_value_injection,0.1052631578947368,0.0459770114942528,0.064,2.0,2.0,Detection may reflect the statistical pattern introduced by missing-value perturbation.
+Android,sample_duplication,sample_duplication,0.0973451327433628,0.0421455938697318,0.0588235294117647,3.0,3.0,Duplicated observations may remain statistically normal in feature space even though their multiplicity changes.
+Android,feature_poisoning,feature_poisoning,0.0919881305637982,0.0395913154533844,0.0553571428571428,4.0,4.0,Detection depends on how strongly the feature modification changes the clean-data distribution.
+Android,gaussian_noise_injection,gaussian_noise_injection,0.0919881305637982,0.0395913154533844,0.0553571428571428,4.0,4.0,Detection depends on the magnitude of the feature perturbation.
+Android,backdoor_injection,backdoor_injection,0.0892857142857142,0.0383141762452107,0.0536193029490616,6.0,6.0,Detection depends on whether the injected pattern is sufficiently unusual relative to the clean reference distribution.
+Android,label_flipping,label_flipping,0.0838323353293413,0.0357598978288633,0.0501342882721575,7.0,7.0,Label alteration may be less visible in feature space because feature vectors can remain unchanged.
+MalMem,gaussian_noise_injection,gaussian_noise_injection,0.1319385140905209,0.1319385140905209,0.1319385140905209,1.0,1.0,Detection depends on the magnitude of the feature perturbation.
+MalMem,outlier_injection,outlier_injection,0.1282161234991423,0.1276686592655849,0.1279418057338468,2.0,2.0,Extreme feature values can create stronger feature-space isolation.
+MalMem,feature_poisoning,feature_poisoning,0.1083333333333333,0.105465414175918,0.1068801384681955,3.0,3.0,Detection depends on how strongly the feature modification changes the clean-data distribution.
+MalMem,sample_duplication,sample_duplication,0.0767484105358764,0.0721605465414176,0.0743838028169014,4.0,4.0,Duplicated observations may remain statistically normal in feature space even though their multiplicity changes.
+MalMem,backdoor_injection,backdoor_injection,0.0763289413902771,0.0717335610589239,0.073959938366718,5.0,5.0,Detection depends on whether the injected pattern is sufficiently unusual relative to the clean reference distribution.
+MalMem,label_flipping,label_flipping,0.0733819507748404,0.0687446626814688,0.0709876543209876,6.0,6.0,Label alteration may be less visible in feature space because feature vectors can remain unchanged.
+MalMem,missing_value_injection,missing_value_injection,0.0712654179990863,0.0666097352690008,0.0688589715294637,7.0,7.0,Detection may reflect the statistical pattern introduced by missing-value perturbation.

@@ -1,0 +1,13 @@
+section,title,evidence
+4.1,Dataset Characteristics,table_attack_distribution.csv
+4.2,Data Quality and EDA,table_class_imbalance_class_distribution.csv; table_missingness_overall.csv; table_duplicate_by_attack.csv; table_outlier_by_attack.csv; table_negative_values_by_attack.csv
+4.3,Descriptive Statistics,table_descriptive_malmem.csv; table_descriptive_android.csv
+4.4,Integrity Results,table_integrity_unit_tests_malmem.csv
+4.5,Anomaly Detection Results,table_anomaly_detection_performance.csv
+4.6,PoisonShield Results,table8_attack_specific_results.csv
+4.7,Attack-Specific Results,attack_specific_detection.csv
+4.8,Poisoning-Rate Robustness,table_phase18_11_poisoning_rate_sensitivity.csv
+4.9,Downstream Model Performance,table_phase19_7_rq5_downstream_comparison.csv
+4.10,Ablation Study,table_phase18_14_ablation_study.csv
+4.11,Statistical Analysis,table_phase18_15_statistical_comparison.csv
+4.12,RQ and Hypothesis Evaluation,table_phase19_12_final_rq_synthesis.csv; table_phase19_11_hypothesis_evaluation.csv

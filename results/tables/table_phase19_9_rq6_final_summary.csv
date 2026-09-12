@@ -1,0 +1,3 @@
+dataset,highest_f1_configuration,highest_f1,highest_recall_configuration,highest_recall,lowest_fpr_configuration,lowest_fpr,highest_retention_configuration,highest_retention,best_tradeoff_configuration,tradeoff_score
+Android,A1_Integrity_Only,0.9989053092501368,A1_Integrity_Only,0.9989053092501368,A1_Integrity_Only,0.0009808729769494,A1_Integrity_Only,0.9990191270230506,A1_Integrity_Only,0.9969466718599693
+MalMem,A1_Integrity_Only,1.0,A1_Integrity_Only,1.0,A1_Integrity_Only,0.0,A1_Integrity_Only,1.0,A1_Integrity_Only,1.0

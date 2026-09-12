@@ -1,0 +1,15 @@
+filename,extension,size_bytes
+figure_16_3_1_accuracy_vs_poisoning_rate.png,.png,317329
+figure_16_3_2_macro_f1_vs_poisoning_rate.png,.png,222179
+figure_16_3_3_poison_removal_rate.png,.png,181919
+figure_16_3_4_clean_data_retention.png,.png,295095
+figure_16_3_5_dataset_sensitivity.png,.png,91971
+figure_16_3_6_ablation_f1.png,.png,167893
+figure_1_attack_distribution.png,.png,211917
+figure_2_missingness.png,.png,298490
+figure_3_representative_feature_distribution.png,.png,309221
+figure_4_roc_curves.png,.png,313553
+figure_5_precision_recall_curves.png,.png,330587
+figure_6_poisoning_rate_sensitivity.png,.png,214430
+figure_7_downstream_performance.png,.png,231610
+figure_8_poisonshield_architecture.png,.png,365416

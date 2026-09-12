@@ -1,0 +1,4 @@
+hypothesis,status,evidence
+H1,Not Supported,PoisonShield > Integrity: 0/14; PoisonShield > Anomaly: 14/14.
+H2,Not Supported,"Recall improved in 0/2 datasets. FPR values are persisted, but no predefined acceptable-FPR ceiling is encoded in the artifact."
+H3,Not Supported,PoisonShield improved clean-test Macro-F1 in 0/2 datasets.
