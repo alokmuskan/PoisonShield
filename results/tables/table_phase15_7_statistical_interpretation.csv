@@ -1,0 +1,5 @@
+finding,value,denominator,interpretation
+Friedman omnibus tests with raw p < 0.05,37,56,Raw omnibus evidence is present in a subset of dataset-rate-metric families.
+Holm-adjusted pairwise significant results,0,168,No pairwise comparison remained significant after Holm correction.
+PoisonShield higher than comparison,79,168,Positive paired differences occurred in these matched comparisons.
+PoisonShield lower than comparison,85,168,Negative paired differences occurred in these matched comparisons.
