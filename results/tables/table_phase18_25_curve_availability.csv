@@ -1,0 +1,3 @@
+figure,curve_point_data_available,scalar_auc_available,decision,reason
+Figure 4 — ROC Curves,0,1,NOT_GENERATED,Persisted artifacts contain scalar ROC-AUC values but no actual FPR/TPR curve-point data.
+Figure 5 — Precision-Recall Curves,1,1,GENERATE,Actual precision/recall curve-point data are available.

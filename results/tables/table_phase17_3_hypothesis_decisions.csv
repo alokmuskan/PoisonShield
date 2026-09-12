@@ -1,0 +1,4 @@
+hypothesis,decision,evidence_status,interpretation
+H1,PARTIALLY SUPPORTED,Primary predefined H1 detection metrics unavailable,"Available Phase 17.2 evidence contains balanced_accuracy, macro_f1, and macro_recall comparisons, but the predefined H1 primary detection metrics (F1, PR-AUC, recall, precision, FPR) are not present. Therefore H1 cannot be formally confirmed from the persisted H1 artifact."
+H2,NOT SUPPORTED,Persisted comparison evidence,Based only on available persisted H2 evidence.
+H3,SUPPORTED,Persisted attack-condition evidence,Based only on available persisted H3 evidence.

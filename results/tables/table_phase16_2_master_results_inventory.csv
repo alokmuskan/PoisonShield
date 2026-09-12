@@ -1,0 +1,7 @@
+phase,artifact,rows,columns,status
+Phase 12,table_phase12_4_6_execution_results.csv,96,25,READY
+Phase 13,table_phase13_4d_final_dataset_sensitivity_summary.csv,8,9,READY
+Phase 14,table_phase14_4_final_ablation_summary.csv,12,11,READY
+Phase 15.6,table_phase15_6_statistical_effect_summary.csv,168,16,READY
+Phase 15.7,table_phase15_7_statistical_interpretation.csv,4,4,READY
+Phase 15.8,table_phase15_8_final_statistical_reporting.csv,168,20,READY

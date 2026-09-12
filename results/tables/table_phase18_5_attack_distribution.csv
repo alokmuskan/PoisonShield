@@ -1,0 +1,15 @@
+Dataset,Attack,Observations
+MalMem,backdoor_injection,2342
+MalMem,gaussian_noise_injection,2342
+MalMem,label_flipping,2342
+MalMem,feature_poisoning,2342
+MalMem,missing_value_injection,2342
+MalMem,outlier_injection,2342
+MalMem,sample_duplication,2342
+Android,backdoor_injection,783
+Android,feature_poisoning,783
+Android,missing_value_injection,783
+Android,gaussian_noise_injection,783
+Android,label_flipping,783
+Android,outlier_injection,783
+Android,sample_duplication,783
