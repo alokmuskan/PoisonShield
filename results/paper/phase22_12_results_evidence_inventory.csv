@@ -1,0 +1,14 @@
+evidence_section,source_file,rows,columns,status
+dataset_audit,table_attack_distribution.csv,16,4,AVAILABLE
+class_distribution,table_class_imbalance_class_distribution.csv,7,3,AVAILABLE
+missingness,table_missingness_overall.csv,2,3,AVAILABLE
+malmem_descriptive,table_descriptive_malmem.csv,55,9,AVAILABLE
+android_descriptive,table_descriptive_android.csv,470,9,AVAILABLE
+anomaly_detection,,2,13,AVAILABLE
+attack_specific,table8_attack_specific_results.csv,14,7,AVAILABLE
+downstream,table_phase19_7_rq5_downstream_comparison.csv,2,8,AVAILABLE
+ablation,table_phase18_14_ablation_study.csv,12,6,AVAILABLE
+poisoning_rate,,32,8,AVAILABLE
+statistics,table_phase18_15_statistical_comparison.csv,168,5,AVAILABLE
+rq_synthesis,table_phase19_12_final_rq_synthesis.csv,6,5,AVAILABLE
+hypothesis,table_phase19_11_hypothesis_evaluation.csv,3,3,AVAILABLE

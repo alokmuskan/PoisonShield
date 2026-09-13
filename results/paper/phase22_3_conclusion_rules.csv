@@ -1,0 +1,10 @@
+rule,requirement
+Evidence rule,Use only locked empirical results.
+Hypothesis rule,Classify H1-H3 using predefined substantive criteria.
+Failure rule,Explicitly report cases where PoisonShield is weak.
+Generalization rule,Do not generalize controlled benchmark results to arbitrary real-world attacks.
+Integrity rule,"Describe integrity evidence as reference consistency, not proof of maliciousness."
+Anomaly rule,"Describe anomaly scores as statistical unusualness, not attacker intent."
+Android provenance rule,Explicitly report that the supplied Android file was retained under its original filename but structurally corresponds to CICMalDroid2020.
+Trusted-reference limitation,Acknowledge that integrity verification assumes availability of a trusted reference state.
+Final claim rule,Do not claim that PoisonShield completely solves machine-learning data poisoning.

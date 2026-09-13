@@ -1,0 +1,20 @@
+section,title,filename,path,status,readable,rows,columns
+5.1,Dataset and Experimental Evidence,table_attack_distribution.csv,D:\User\Desktop\PoisonShield\results\tables\table_attack_distribution.csv,PRESENT,True,16,4
+5.1,Dataset and Experimental Evidence,table_poisoned_summary.csv,D:\User\Desktop\PoisonShield\results\tables\table_poisoned_summary.csv,PRESENT,True,2,6
+5.2,Exploratory Data Analysis,table_missingness_overall.csv,D:\User\Desktop\PoisonShield\results\tables\table_missingness_overall.csv,PRESENT,True,2,3
+5.2,Exploratory Data Analysis,table_duplicate_by_attack.csv,D:\User\Desktop\PoisonShield\results\tables\table_duplicate_by_attack.csv,PRESENT,True,8,3
+5.2,Exploratory Data Analysis,table_outlier_by_attack.csv,D:\User\Desktop\PoisonShield\results\tables\table_outlier_by_attack.csv,PRESENT,True,16,6
+5.2,Exploratory Data Analysis,table_negative_values_by_attack.csv,D:\User\Desktop\PoisonShield\results\tables\table_negative_values_by_attack.csv,PRESENT,True,16,3
+5.2,Exploratory Data Analysis,table_descriptive_malmem.csv,D:\User\Desktop\PoisonShield\results\tables\table_descriptive_malmem.csv,PRESENT,True,55,9
+5.2,Exploratory Data Analysis,table_descriptive_android.csv,D:\User\Desktop\PoisonShield\results\tables\table_descriptive_android.csv,PRESENT,True,470,9
+5.3,Integrity Results,table_integrity_unit_tests_malmem.csv,D:\User\Desktop\PoisonShield\results\tables\table_integrity_unit_tests_malmem.csv,PRESENT,True,6,10
+5.4,Anomaly-Detection Results,table_anomaly_detection_performance.csv,D:\User\Desktop\PoisonShield\results\tables\table_anomaly_detection_performance.csv,PRESENT,True,2,13
+5.5,PoisonShield Results,table_phase19_4_rq3_poisonshield_interpretation.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_4_rq3_poisonshield_interpretation.csv,PRESENT,True,14,12
+5.6,Attack-Specific Results,attack_specific_detection.csv,D:\User\Desktop\PoisonShield\results\tables\attack_specific_detection.csv,PRESENT,True,14,17
+5.6,Attack-Specific Results,table8_attack_specific_results.csv,D:\User\Desktop\PoisonShield\results\tables\table8_attack_specific_results.csv,PRESENT,True,14,7
+5.7,Poisoning-Rate Results,table_phase18_11_poisoning_rate_sensitivity.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_11_poisoning_rate_sensitivity.csv,PRESENT,True,32,8
+5.8,Downstream Model Results,table_phase19_7_rq5_downstream_comparison.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_7_rq5_downstream_comparison.csv,PRESENT,True,2,8
+5.9,Ablation,table_phase18_14_ablation_study.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_14_ablation_study.csv,PRESENT,True,12,6
+5.10,Robustness,table_phase18_11_poisoning_rate_sensitivity.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_11_poisoning_rate_sensitivity.csv,PRESENT,True,32,8
+5.11,Statistical Comparisons,table_phase18_15_statistical_comparison.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_15_statistical_comparison.csv,PRESENT,True,168,5
+5.12,Computational Overhead,table_phase15_7_dataset_statistical_summary.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase15_7_dataset_statistical_summary.csv,PRESENT,True,2,8

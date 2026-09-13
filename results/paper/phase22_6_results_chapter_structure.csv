@@ -1,0 +1,13 @@
+section,title,purpose
+5.1,Dataset and Experimental Evidence,"Dataset characteristics, attack composition, experimental design, and empirical evidence coverage."
+5.2,Exploratory Data Analysis,"Descriptive statistics, class distributions, attack distributions, missingness, duplication, outliers, and invalid-value findings."
+5.3,Integrity Results,"Reference-consistency and provenance verification including modification, addition, removal, and multiplicity detection."
+5.4,Anomaly-Detection Results,"Isolation Forest anomaly detection performance, threshold sensitivity, and attack-specific results."
+5.5,PoisonShield Results,Combined anomaly and integrity evidence using the risk-based PoisonShield fusion architecture.
+5.6,Attack-Specific Detection Results,Detection behavior across the seven primary poisoning mechanisms.
+5.7,Poisoning-Rate Results,"Performance under controlled poisoning rates of 1%, 5%, 10%, and 20%."
+5.8,Downstream Model Performance,Clean-test classification performance under the evaluated training conditions.
+5.9,Ablation Results,Comparison of complete PoisonShield with component removal and alternative fusion configurations.
+5.10,Robustness and Sensitivity Results,"Seed, attack, threshold, dataset, and other persisted sensitivity analyses."
+5.11,Statistical Comparisons,"Statistical comparison results, effect sizes, confidence intervals, and adjusted significance where available."
+5.12,Computational Overhead,Training and filtering computational overhead and operational trade-offs.

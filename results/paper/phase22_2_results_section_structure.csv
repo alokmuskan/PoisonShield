@@ -1,0 +1,13 @@
+section,title
+5.1,Dataset audit
+5.2,Exploratory data analysis
+5.3,Integrity results
+5.4,Anomaly-detection results
+5.5,PoisonShield results
+5.6,Attack-specific results
+5.7,Poisoning-rate results
+5.8,Downstream model results
+5.9,Ablation
+5.10,Robustness
+5.11,Statistical comparisons
+5.12,Computational overhead

@@ -1,0 +1,13 @@
+component,locked_specification
+Research design,Controlled empirical evaluation
+Datasets,CIC-MalMem-2022 and supplied Android dataset structurally corresponding to CICMalDroid2020
+Primary anomaly detector,Isolation Forest
+Primary downstream classifier,Random Forest
+Integrity mechanism,SHA-256 canonical row hashing with multiplicity-aware trusted-reference comparison
+Fusion,Risk = alpha × normalized anomaly evidence + beta × integrity evidence
+Poisoning rates,"1%, 5%, 10%, 20%"
+Seeds,"42, 123, 2026"
+Anomaly thresholds,"90th, 95th, 97.5th and 99th percentiles"
+Primary evaluation,"Precision, recall, F1, PR-AUC, ROC-AUC, FPR and FNR"
+Downstream evaluation,"Accuracy, macro-precision, macro-recall, macro-F1 and balanced accuracy"
+Statistical analysis,"Matched comparisons, confidence intervals, effect sizes, Friedman test where appropriate, and Holm-corrected Wilcoxon signed-rank comparisons"

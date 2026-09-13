@@ -1,0 +1,5 @@
+evidence_type,artifact,rows,columns,datasets
+attack_distribution,table_attack_distribution.csv,16,4,"Android, CIC-MalMem-2022"
+malmem_descriptive_statistics,table_descriptive_malmem.csv,55,9,MalMem
+android_descriptive_statistics,table_descriptive_android.csv,470,9,Android
+downstream_performance,table_phase19_7_rq5_downstream_comparison.csv,2,8,"Android, MalMem"

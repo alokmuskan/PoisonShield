@@ -1,0 +1,15 @@
+{
+  "phase": "22.6",
+  "title": "Results Chapter Manuscript Generation",
+  "source": "Persisted empirical artifacts",
+  "experiments_rerun": false,
+  "datasets_modified": false,
+  "empirical_values_fabricated": false,
+  "chapter_sections": 12,
+  "persisted_csv_artifacts": 168,
+  "key_result_tables_loaded": 10,
+  "inventory": "D:\\User\\Desktop\\PoisonShield\\results\\paper\\phase22_6_empirical_artifact_inventory.csv",
+  "crosswalk": "D:\\User\\Desktop\\PoisonShield\\results\\paper\\phase22_6_results_evidence_crosswalk.csv",
+  "structure": "D:\\User\\Desktop\\PoisonShield\\results\\paper\\phase22_6_results_chapter_structure.csv",
+  "manuscript": "D:\\User\\Desktop\\PoisonShield\\results\\paper\\phase22_6_results_chapter_draft.md"
+}

@@ -1,0 +1,13 @@
+evidence_group,filename,exists,status
+Dataset audit,table_attack_distribution.csv,True,PRESENT
+Variable definitions,table3_variable_measurement_definitions.csv,True,PRESENT
+Data quality,table_missingness_overall.csv,True,PRESENT
+Anomaly,table_anomaly_detection_performance.csv,True,PRESENT
+Integrity,table8_attack_specific_results.csv,True,PRESENT
+PoisonShield,table_phase19_4_rq3_poisonshield_interpretation.csv,True,PRESENT
+Attack-specific,attack_specific_detection.csv,True,PRESENT
+Poisoning-rate,table_phase18_11_poisoning_rate_sensitivity.csv,True,PRESENT
+Downstream,table_phase19_7_rq5_downstream_comparison.csv,True,PRESENT
+Ablation,table_phase18_14_ablation_study.csv,True,PRESENT
+Statistical,table_phase18_15_statistical_comparison.csv,True,PRESENT
+RQ6 trade-off,table_phase19_8_rq6_detection_retention_tradeoff.csv,True,PRESENT

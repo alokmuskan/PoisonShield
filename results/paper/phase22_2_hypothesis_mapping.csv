@@ -1,0 +1,4 @@
+hypothesis,claim,evidence_group
+H1,PoisonShield vs individual defense layers,PoisonShield
+H2,Anomaly evidence added to integrity evidence,PoisonShield
+H3,PoisonShield filtering and downstream performance,Downstream
