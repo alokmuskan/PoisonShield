@@ -1,0 +1,9 @@
+chapter,title,purpose
+Chapter 1,Introduction,"Background, training-data poisoning, motivation, research gap, PoisonShield concept, aim, RQs, hypotheses, contribution and scope."
+Chapter 2,Literature Review,"Training-data poisoning, poisoning attacks, backdoors, anomaly detection, provenance, existing defenses and research gap."
+Chapter 3,Methodology,"Research design, threat model, datasets, variables, preprocessing, integrity, anomaly detection, fusion, filtering, downstream model, metrics, statistics and robustness."
+Chapter 4,Data Description,"Dataset origins, identity, observations, features, classes, attacks, missingness, duplicates, constants and preprocessing decisions."
+Chapter 5,Results,"Dataset audit, EDA, integrity, anomaly, PoisonShield, attack-specific, poisoning-rate, downstream, ablation, robustness, statistics and overhead."
+Chapter 6,Discussion,"RQ1-RQ6 interpretation, comparison with literature, theoretical and practical implications and unexpected findings."
+Chapter 7,Limitations,"Controlled attacks, benchmark dependence, trusted reference assumption, detector limitations, adaptive attackers, generalizability and dataset identity limitation."
+Chapter 8,Conclusion,"Problem, proposed defense, experimental evidence, hypothesis conclusions, failure cases and future work."

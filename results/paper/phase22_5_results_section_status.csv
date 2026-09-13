@@ -1,0 +1,13 @@
+paper_section,required_artifacts,present_artifacts,coverage,status
+5.1 Dataset audit,2,2,1.0,READY
+5.2 Exploratory data analysis,6,6,1.0,READY
+5.3 Integrity results,1,1,1.0,READY
+5.4 Anomaly detection,2,2,1.0,READY
+5.5 PoisonShield,2,2,1.0,READY
+5.6 Attack-specific results,2,2,1.0,READY
+5.7 Poisoning-rate results,1,1,1.0,READY
+5.8 Downstream model,1,1,1.0,READY
+5.9 Ablation,1,1,1.0,READY
+5.10 Robustness,2,2,1.0,READY
+5.11 Statistical comparisons,2,1,0.5,PARTIAL
+5.12 Computational overhead,1,0,0.0,PARTIAL

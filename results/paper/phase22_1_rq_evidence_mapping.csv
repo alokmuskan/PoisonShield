@@ -1,0 +1,7 @@
+rq,question_area,evidence_files,status
+RQ1,Integrity / provenance,table8_attack_specific_results.csv,PRESENT
+RQ2,Anomaly detection,table_anomaly_detection_performance.csv; attack_specific_detection.csv,PRESENT
+RQ3,PoisonShield combination,table_phase19_4_rq3_poisonshield_interpretation.csv,PRESENT
+RQ4,Attack and poisoning-rate robustness,attack_specific_detection.csv; table_phase18_11_poisoning_rate_sensitivity.csv,PRESENT
+RQ5,Downstream performance,table_phase19_7_rq5_downstream_comparison.csv,PRESENT
+RQ6,Detection / retention trade-off,table_phase19_8_rq6_detection_retention_tradeoff.csv,PRESENT

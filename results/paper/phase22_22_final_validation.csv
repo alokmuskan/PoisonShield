@@ -1,0 +1,10 @@
+validation,status
+project_paths,PASS
+raw_data_preservation,PASS
+required_empirical_evidence,PASS
+results_structure,PASS
+crosswalk_titles,PASS
+manuscript_manifest,PASS
+artifact_readability,PASS
+raw_checksums,PASS
+non_fabrication,PASS

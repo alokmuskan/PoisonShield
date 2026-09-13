@@ -1,0 +1,15 @@
+paper_section,filename,path,status
+Dataset audit,table_attack_distribution.csv,D:\User\Desktop\PoisonShield\results\tables\table_attack_distribution.csv,PRESENT
+Variable definitions,table3_variable_measurement_definitions.csv,D:\User\Desktop\PoisonShield\results\tables\table3_variable_measurement_definitions.csv,PRESENT
+Data quality,table_missingness_overall.csv,D:\User\Desktop\PoisonShield\results\tables\table_missingness_overall.csv,PRESENT
+Integrity,table8_attack_specific_results.csv,D:\User\Desktop\PoisonShield\results\tables\table8_attack_specific_results.csv,PRESENT
+Anomaly,table_anomaly_detection_performance.csv,D:\User\Desktop\PoisonShield\results\tables\table_anomaly_detection_performance.csv,PRESENT
+PoisonShield,table_phase19_4_rq3_poisonshield_interpretation.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_4_rq3_poisonshield_interpretation.csv,PRESENT
+Attack-specific,attack_specific_detection.csv,D:\User\Desktop\PoisonShield\results\tables\attack_specific_detection.csv,PRESENT
+Poisoning-rate,table_phase18_11_poisoning_rate_sensitivity.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_11_poisoning_rate_sensitivity.csv,PRESENT
+Downstream,table_phase19_7_rq5_downstream_comparison.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_7_rq5_downstream_comparison.csv,PRESENT
+Ablation,table_phase18_14_ablation_study.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_14_ablation_study.csv,PRESENT
+Statistical,table_phase18_15_statistical_comparison.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase18_15_statistical_comparison.csv,PRESENT
+RQ synthesis,table_phase19_12_final_rq_synthesis.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_12_final_rq_synthesis.csv,PRESENT
+Hypothesis,table_phase19_11_hypothesis_evaluation.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_11_hypothesis_evaluation.csv,PRESENT
+RQ6 trade-off,table_phase19_8_rq6_detection_retention_tradeoff.csv,D:\User\Desktop\PoisonShield\results\tables\table_phase19_8_rq6_detection_retention_tradeoff.csv,PRESENT

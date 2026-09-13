@@ -1,0 +1,13 @@
+section,title,evidence_status,artifact_count,available_artifacts
+5.1,Dataset and Experimental Evidence,EVIDENCE_AVAILABLE,2,table_attack_distribution.csv;table_poisoned_summary.csv
+5.2,Exploratory Data Analysis,EVIDENCE_AVAILABLE,6,table_missingness_overall.csv;table_duplicate_by_attack.csv;table_outlier_by_attack.csv;table_negative_values_by_attack.csv;table_descriptive_malmem.csv;table_descriptive_android.csv
+5.3,Integrity Results,EVIDENCE_AVAILABLE,1,table_integrity_unit_tests_malmem.csv
+5.4,Anomaly-Detection Results,EVIDENCE_AVAILABLE,1,table_anomaly_detection_performance.csv
+5.5,PoisonShield Results,EVIDENCE_AVAILABLE,1,table_phase19_4_rq3_poisonshield_interpretation.csv
+5.6,Attack-Specific Results,EVIDENCE_AVAILABLE,2,attack_specific_detection.csv;table8_attack_specific_results.csv
+5.7,Poisoning-Rate Results,EVIDENCE_AVAILABLE,1,table_phase18_11_poisoning_rate_sensitivity.csv
+5.8,Downstream Model Results,EVIDENCE_AVAILABLE,1,table_phase19_7_rq5_downstream_comparison.csv
+5.9,Ablation,EVIDENCE_AVAILABLE,1,table_phase18_14_ablation_study.csv
+5.10,Robustness,EVIDENCE_AVAILABLE,1,table_phase18_11_poisoning_rate_sensitivity.csv
+5.11,Statistical Comparisons,EVIDENCE_AVAILABLE,1,table_phase18_15_statistical_comparison.csv
+5.12,Computational Overhead,EVIDENCE_AVAILABLE,1,table_phase15_7_dataset_statistical_summary.csv

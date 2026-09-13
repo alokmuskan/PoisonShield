@@ -1,0 +1,7 @@
+RQ,research_focus,evidence_group
+RQ1,Trusted-reference integrity detection,Integrity
+RQ2,Sample-level anomaly detection,Anomaly
+RQ3,Combined PoisonShield detection,PoisonShield
+RQ4,Attack and poisoning-rate robustness,Attack-specific
+RQ5,Downstream classification performance,Downstream
+RQ6,Detection-retention trade-off,RQ6 trade-off

@@ -1,0 +1,14 @@
+group,artifact,exists
+dataset_audit,table_attack_distribution.csv,True
+dataset_audit,table_poisoned_summary.csv,True
+eda,table_descriptive_malmem.csv,True
+eda,table_descriptive_android.csv,True
+eda,table_eda_attack_distribution.csv,False
+eda,table_eda_consistency_validation.csv,False
+integrity,trusted_manifest_malmem.csv,True
+integrity,trusted_manifest_android.csv,True
+integrity,table_integrity_unit_tests_malmem.csv,True
+anomaly,table_anomaly_detection_performance.csv,True
+anomaly,table_anomaly_attack_specific_malmem.csv,True
+anomaly,table_anomaly_attack_specific_android.csv,True
+anomaly,table_anomaly_threshold_sensitivity.csv,True

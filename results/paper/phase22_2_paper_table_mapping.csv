@@ -1,0 +1,14 @@
+table,paper_title,evidence_group
+Table 1,Dataset characteristics,Dataset audit
+Table 2,Attack distribution,Dataset audit
+Table 3,Variable and measurement definitions,Variable definitions
+Table 4,Data-quality assessment,Data quality
+Table 5,Baseline anomaly-detection performance,Anomaly
+Table 6,Integrity-only vs anomaly-only vs PoisonShield,PoisonShield
+Table 7,Attack-specific performance,Attack-specific
+Table 8,Clean-data retention and false-positive removal,RQ6 trade-off
+Table 9,Downstream model performance,Downstream
+Table 10,Ablation study,Ablation
+Table 11,Controlled poisoning-rate robustness,Poisoning-rate
+Table 12,Statistical comparisons and effect sizes,Statistical
+Table 13,Computational overhead,Computational

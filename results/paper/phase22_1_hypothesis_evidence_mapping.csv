@@ -1,0 +1,4 @@
+hypothesis,description,evidence_file,status
+H1,PoisonShield versus individual defense layers,table_phase19_4_rq3_poisonshield_interpretation.csv,PRESENT
+H2,Recall improvement with acceptable false-positive rate,table_phase19_6_rq4_rate_comparison.csv,PRESENT
+H3,Downstream clean-test performance,table_phase19_7_rq5_downstream_comparison.csv,PRESENT

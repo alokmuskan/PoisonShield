@@ -1,0 +1,7 @@
+section,RQ,discussion_focus
+6.1,RQ1,Trusted-reference integrity detection
+6.2,RQ2,Sample-level anomaly detection
+6.3,RQ3,Combined PoisonShield detection
+6.4,RQ4,Attack-specific and poisoning-rate robustness
+6.5,RQ5,Downstream classification performance
+6.6,RQ6,Detection effectiveness versus false-positive removal and legitimate-data retention

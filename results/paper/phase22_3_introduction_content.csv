@@ -1,0 +1,7 @@
+component,locked_content
+Background,Machine-learning systems depend on trustworthy training data. Training-data poisoning represents a security threat in which maliciously or improperly altered observations can influence the learning process.
+Problem,Existing defenses may focus on individual properties such as statistical unusualness or dataset integrity. These properties can provide complementary evidence but do not necessarily capture the same forms of poisoning.
+Research Gap,The study addresses the gap concerning integration and empirical evaluation of complementary integrity/provenance and sample-level anomaly evidence under controlled heterogeneous poisoning conditions.
+Proposed Approach,"PoisonShield combines trusted-reference integrity evidence, sample-level anomaly detection using Isolation Forest, and risk-based evidence fusion for training-data screening."
+Scope,The study focuses on training-data poisoning in tabular cybersecurity datasets using the supplied MalMem and Android benchmark data and seven controlled poisoning mechanisms.
+Contribution,The contribution is a reproducible complementary-evidence framework evaluated across heterogeneous poisoning mechanisms rather than a claim of universal poisoning protection.

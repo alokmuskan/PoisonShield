@@ -1,0 +1,11 @@
+{
+  "project": "PoisonShield: A Multi-Layer Defense Against Machine Learning Data Poisoning Using Dataset Integrity Verification, Sample-Level Anomaly Detection, and Risk-Based Evidence Fusion",
+  "phase": "22.25",
+  "purpose": "Final manuscript package validation",
+  "results_structure": "5.1-5.12",
+  "raw_data_preserved": true,
+  "empirical_values_fabricated": false,
+  "experiments_rerun": false,
+  "source_artifacts_modified": false,
+  "timestamp": "2026-09-13T14:59:39.741257"
+}

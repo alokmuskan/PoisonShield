@@ -1,0 +1,10 @@
+check,status,detail
+project_paths,PASS,Required project directories exist.
+raw_data_preservation,PASS,All four raw datasets preserve expected structure.
+crosswalk_schema,PASS,Crosswalk contains the required five columns.
+results_section_structure,PASS,Results sections are exactly 5.1 through 5.12.
+section_5_10,PASS,Section 5.10 is safely represented as a string.
+backup_artifact,PASS,Crosswalk backup artifact exists and is readable.
+required_empirical_evidence,PASS,Required empirical result tables are present.
+artifact_references,PASS,Crosswalk artifact references resolve.
+current_crosswalk_integrity,PASS,Current repaired crosswalk matches the locked structure.

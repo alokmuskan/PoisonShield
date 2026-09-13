@@ -1,0 +1,169 @@
+artifact,rows,columns,column_names,contains_numeric,contains_attack_type,contains_dataset,contains_seed,contains_rate,contains_defense
+attack_specific_detection.csv,14,17,dataset | attack_type | clean_rows | attack_rows | evaluation_rows | threshold | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,True,True,False,False,False
+attack_specific_detection_summary.csv,2,8,dataset | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr,True,False,True,False,False,False
+confusion_matrix_phase10_android_clean.csv,5,6,Unnamed: 0 | Adware | Banking | Benign | Riskware | SMS malware,True,False,False,False,False,False
+confusion_matrix_phase10_E1_android.csv,5,6,Unnamed: 0 | Adware | Banking | Benign | Riskware | SMS malware,True,False,False,False,False,False
+confusion_matrix_phase10_E1_malmem.csv,4,5,Unnamed: 0 | Benign | Ransomware | Spyware | Trojan,True,False,False,False,False,False
+confusion_matrix_phase10_E2_android.csv,5,6,Unnamed: 0 | Adware | Banking | Benign | Riskware | SMS malware,True,False,False,False,False,False
+confusion_matrix_phase10_E2_malmem.csv,4,5,Unnamed: 0 | Benign | Ransomware | Spyware | Trojan,True,False,False,False,False,False
+confusion_matrix_phase10_E3_android.csv,5,6,Unnamed: 0 | Adware | Banking | Benign | Riskware | SMS malware,True,False,False,False,False,False
+confusion_matrix_phase10_E3_malmem.csv,4,5,Unnamed: 0 | Benign | Ransomware | Spyware | Trojan,True,False,False,False,False,False
+confusion_matrix_phase10_E4_android.csv,5,6,Unnamed: 0 | Adware | Banking | Benign | Riskware | SMS malware,True,False,False,False,False,False
+confusion_matrix_phase10_E4_malmem.csv,4,5,Unnamed: 0 | Benign | Ransomware | Spyware | Trojan,True,False,False,False,False,False
+confusion_matrix_phase10_malmem_clean.csv,4,5,Unnamed: 0 | Benign | Ransomware | Spyware | Trojan,True,False,False,False,False,False
+phase12_experimental_matrix.csv,672,5,dataset | attack_type | poisoning_rate | defense | seed,True,True,True,True,False,True
+table3_variable_measurement_definitions.csv,15,10,variable | dataset | type | measurement | role | observed_values | anomaly_predictor | integrity_input | evaluation_variable | transformation,False,False,True,False,False,False
+table8_attack_specific_results.csv,14,7,dataset | attack_type | Integrity | Anomaly | PoisonShield | PoisonShield_vs_Integrity | PoisonShield_vs_Anomaly,True,True,True,False,False,False
+table_android_andmal_identity_check.csv,2,5,property | local_value | official_CCCS_CIC_AndMal_2020_reference | matches_official_scale | matches_reference_category_count,True,False,False,False,False,False
+table_android_cicmaldroid_identity_check.csv,3,4,property | local_value | official_CICMalDroid2020_reference | match,True,False,False,False,False,False
+table_anomaly_attack_specific_android.csv,7,9,attack_type | n_attack | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr,True,True,False,False,False,False
+table_anomaly_attack_specific_malmem.csv,7,9,attack_type | n_attack | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr,True,True,False,False,False,False
+table_anomaly_detection_performance.csv,2,13,dataset | threshold_percentile | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,False,True,False,False,False
+table_anomaly_threshold_sensitivity.csv,4,3,percentile | malmem_threshold | android_threshold,True,False,False,False,False,False
+table_attack_distribution.csv,16,4,dataset | attack_type | count | percentage,True,True,True,False,False,False
+table_class_imbalance_attack_summary.csv,2,3,dataset | rows | attack_type,True,True,True,False,False,False
+table_class_imbalance_class_distribution.csv,7,3,dataset | class | observations,True,False,True,False,False,False
+table_class_imbalance_quality_audit.csv,2,6,dataset | rows | missing_cells | exact_duplicates | nonnegative_source_indices | feature_overlap_with_primary,True,False,True,False,False,False
+table_class_imbalance_validation.csv,2,11,dataset | rows | expected_rows | row_count_pass | attack_type_pass | missing_value_pass | source_index_pass | primary_attack_separation_pass | exact_duplicates | feature_overlap_with_primary | PHASE_2_10_PASS,True,False,True,False,False,False
+table_constant_feature_audit.csv,5,6,dataset | feature | unique_count | variance | constant | modeling_decision,True,False,True,False,False,False
+table_constant_feature_validation.csv,2,10,dataset | detected_constant_features | expected_constant_features | constant_feature_count_pass | constant_feature_set_pass | one_unique_value_pass | zero_variance_pass | candidate_model_features | no_constants_in_model_features | PHASE_2_7_PASS,True,False,True,False,False,False
+table_dataset_feature_identity.csv,2,4,dataset | local_substantive_features | expected_substantive_features | match,True,False,True,False,False,False
+table_dataset_identity.csv,4,7,dataset_role | local_file | working_name | rows | columns | substantive_numeric_features | provisional_identity,True,False,False,False,False,False
+table_dataset_identity_validation.csv,2,9,dataset | local_rows | expected_rows | row_count_pass | local_features | expected_features | feature_count_pass | identity_documented | PHASE_2_11_PASS,True,False,True,False,False,False
+table_dataset_provenance_decision.csv,3,4,dataset | local_file | identity_decision | reason,False,False,True,False,False,False
+table_descriptive_android.csv,470,9,variable | count | mean | std | min | 25% | 50% | 75% | max,True,False,False,False,False,False
+table_descriptive_malmem.csv,55,9,variable | count | mean | std | min | 25% | 50% | 75% | max,True,False,False,False,False,False
+table_duplicate_by_attack.csv,8,3,dataset | attack_type | duplicate_rows,True,True,True,False,False,False
+table_duplicate_overall.csv,2,2,dataset | exact_duplicate_rows,True,False,True,False,False,False
+table_duplicate_validation.csv,2,17,dataset | exact_duplicate_rows | expected_exact_duplicate_rows | exact_duplicate_count_pass | clean_duplicate_rows | expected_clean_duplicate_rows | clean_duplicate_count_pass | sample_duplication_rows | expected_sample_duplication_rows | sample_duplication_count_pass | valid_duplication_source_indices | invalid_duplication_source_indices | source_index_validation_pass | sample_duplication_clean_feature_matches | expected_feature_matches | feature_match_pass | PHASE_2_6_PASS,True,False,True,False,False,False
+table_feature_count_after_constant_audit.csv,2,4,dataset | numeric_features_before | constant_features | candidate_modeling_features,True,False,True,False,False,False
+table_infinite_values_by_feature.csv,525,3,dataset | feature | infinite_count,True,False,True,False,False,False
+table_integrity_unit_tests_malmem.csv,6,10,experiment | trusted_rows | observed_rows | unique_trusted_hashes | unique_observed_hashes | added_hashes | removed_hashes | multiplicity_anomalies | matching_hashes | risk_hashes,True,False,False,False,False,False
+table_invalid_value_validation.csv,2,15,dataset | numeric_feature_count | negative_cells | negative_value_pass | infinite_cells | infinite_value_pass | clean_negative_cells | clean_negative_pass | clean_infinite_cells | clean_infinite_pass | poisoned_negative_cells | poisoned_negative_pass | poisoned_infinite_cells | poisoned_infinite_pass | PHASE_2_8_PASS,True,False,True,False,False,False
+table_label_consistency_audit.csv,16,6,dataset | attack_type | observations | label_mismatches | label_match | mismatch_percentage,True,True,True,False,False,False
+table_missing_cells_by_attack.csv,16,3,dataset | attack_type | missing_cells,True,True,True,False,False,False
+table_missingness_by_attack.csv,16,3,dataset | attack_type | rows_with_missing,True,True,True,False,False,False
+table_missingness_by_feature.csv,10,3,dataset | feature | missing_count,True,False,True,False,False,False
+table_missingness_overall.csv,2,3,dataset | missing_cells | rows_with_missing,True,False,True,False,False,False
+table_negative_values_by_attack.csv,16,3,dataset | attack_type | negative_cells,True,True,True,False,False,False
+table_negative_values_by_feature.csv,525,3,dataset | feature | negative_count,True,False,True,False,False,False
+table_outlier_by_attack.csv,16,6,dataset | attack_type | observations | outlier_cells | rows_with_outlier | row_outlier_percentage,True,True,True,False,False,False
+table_outlier_by_feature.csv,520,4,dataset | feature | outlier_count | outlier_percentage,True,False,True,False,False,False
+table_outlier_clean_vs_poisoned.csv,4,5,group | observations | rows_with_outlier | row_outlier_percentage | dataset,True,False,True,False,False,False
+table_outlier_validation.csv,2,8,dataset | candidate_features | feature_count_pass | nonnegative_outlier_counts_pass | feature_alignment_pass | attack_type_coverage_pass | automatic_removal | PHASE_2_9_PASS,True,False,True,False,False,False
+table_phase10_clean_baseline.csv,2,11,dataset | training_condition | seed | training_rows | test_rows | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds,True,False,True,True,False,False
+table_phase10_E1_E4_downstream_comparison.csv,10,11,dataset | training_condition | seed | training_rows | test_rows | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds,True,False,True,True,False,False
+table_phase10_E1_no_defense.csv,2,11,dataset | training_condition | seed | training_rows | test_rows | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds,True,False,True,True,False,False
+table_phase10_E2_integrity_only.csv,2,11,dataset | training_condition | seed | training_rows | test_rows | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds,True,False,True,True,False,False
+table_phase10_E3_anomaly_only.csv,2,11,dataset | training_condition | seed | training_rows | test_rows | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds,True,False,True,True,False,False
+table_phase10_E4_poisonshield.csv,2,11,dataset | training_condition | seed | training_rows | test_rows | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds,True,False,True,True,False,False
+table_phase10_E4_vs_E1_difference.csv,2,10,dataset | E1_macro_f1 | E4_macro_f1 | E4_minus_E1_macro_f1 | E1_accuracy | E4_accuracy | E4_minus_E1_accuracy | E1_balanced_accuracy | E4_balanced_accuracy | E4_minus_E1_balanced_accuracy,True,False,True,False,False,False
+table_phase11_attack_specific_detection.csv,42,11,dataset | attack_type | detector | attack_rows | clean_rows | precision | recall | f1 | pr_auc | fpr | fnr,True,True,True,False,False,False
+table_phase12_3_2_validation.csv,2,5,dataset | controlled_conditions | clean_test_overlap | seven_attacks_present | validated,True,False,True,False,False,False
+table_phase12_3_3_rate_validation.csv,24,11,dataset | poisoning_rate | seed | clean_count | poison_count | final_count | actual_poisoning_rate | rate_error | count_consistent | rate_consistent | validated,True,False,True,True,False,False
+table_phase12_3_4_reproducibility_manifest.csv,24,8,dataset | poisoning_rate | seed | clean_count | poison_count | final_count | actual_poisoning_rate | attack_types,True,False,True,True,False,False
+table_phase12_3_5_experiment_matrix.csv,96,9,experiment_id | dataset | poisoning_rate | seed | defense | clean_count | poison_count | final_count | actual_poisoning_rate,True,False,True,True,False,True
+table_phase12_4_3_execution_manifest.csv,96,9,experiment_id | dataset | poisoning_rate | seed | defense | clean_count | poison_count | final_count | actual_poisoning_rate,True,False,True,True,False,True
+table_phase12_4_4_final_execution_manifest.csv,96,9,experiment_id | dataset | poisoning_rate | seed | defense | clean_count | poison_count | final_count | actual_poisoning_rate,True,False,True,True,False,True
+table_phase12_4_5_controlled_experiment_results.csv,96,25,experiment_id | dataset | poisoning_rate | seed | defense | original_training_rows | retained_training_rows | retention | original_poison_rows | retained_poison_rows | removed_poison_rows | poison_removal_rate | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds | inference_time_seconds | total_runtime_seconds | confusion_matrix | alpha | beta | risk_threshold | timestamp,True,False,True,True,False,True
+table_phase12_4_6_execution_results.csv,96,25,experiment_id | dataset | poisoning_rate | seed | defense | original_training_rows | retained_training_rows | retention | original_poison_rows | retained_poison_rows | removed_poison_rows | poison_removal_rate | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds | inference_time_seconds | total_runtime_seconds | confusion_matrix | alpha | beta | risk_threshold | timestamp,True,False,True,True,False,True
+table_phase12_4_6_final_experiment_results.csv,96,25,experiment_id | dataset | poisoning_rate | seed | defense | original_training_rows | retained_training_rows | retention | original_poison_rows | retained_poison_rows | removed_poison_rows | poison_removal_rate | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | training_time_seconds | inference_time_seconds | total_runtime_seconds | confusion_matrix | alpha | beta | risk_threshold | timestamp,True,False,True,True,False,True
+table_phase12_4_7_experiment_coverage.csv,24,4,dataset | poisoning_rate | seed | defense_count,True,False,True,True,False,False
+table_phase12_4_8_result_artifact_audit.csv,8,3,check | status | value,True,False,False,False,False,False
+table_phase12_4_execution_manifest.csv,96,6,experiment_id | dataset | poisoning_rate | seed | defense | status,True,False,True,True,False,True
+table_phase12_4_preflight_manifest.csv,96,10,experiment_id | dataset | poisoning_rate | seed | defense | status | started_at | completed_at | runtime_seconds | error,True,False,True,True,False,True
+table_phase12_controlled_poisoning_manifest.csv,24,7,dataset | poisoning_rate | seed | clean_count | poison_count | final_count | actual_poisoning_rate,True,False,True,True,False,False
+table_phase13_1_robustness_preflight.csv,16,2,check | status,False,False,False,False,False,False
+table_phase13_2_seed_robustness.csv,32,45,dataset | poisoning_rate | defense | accuracy_mean | accuracy_std | accuracy_min | accuracy_max | macro_precision_mean | macro_precision_std | macro_precision_min | macro_precision_max | macro_recall_mean | macro_recall_std | macro_recall_min | macro_recall_max | macro_f1_mean | macro_f1_std | macro_f1_min | macro_f1_max | balanced_accuracy_mean | balanced_accuracy_std | balanced_accuracy_min | balanced_accuracy_max | retention_mean | retention_std | retention_min | retention_max | poison_removal_rate_mean | poison_removal_rate_std | poison_removal_rate_min | poison_removal_rate_max | accuracy_seed_range | macro_precision_seed_range | macro_recall_seed_range | macro_f1_seed_range | balanced_accuracy_seed_range | retention_seed_range | poison_removal_rate_seed_range | accuracy_cv | macro_precision_cv | macro_recall_cv | macro_f1_cv | balanced_accuracy_cv | retention_cv | poison_removal_rate_cv,True,False,True,False,False,True
+table_phase13_3_threshold_sensitivity_design.csv,96,5,dataset | poisoning_rate | seed | threshold_percentile | threshold_label,True,False,True,True,False,False
+table_phase13_4_alpha_beta_sensitivity.csv,22,9,dataset | alpha | beta | mean_clean_fpr | mean_precision | mean_recall | mean_f1 | mean_roc_auc | mean_pr_auc,True,False,True,False,False,False
+table_phase13_4_android_weight_sensitivity.csv,44,15,dataset | alpha | beta | threshold_percentile | risk_threshold | clean_fpr | precision | recall | f1 | roc_auc | pr_auc | tn | fp | fn | tp,True,False,True,False,False,False
+table_phase13_4_malmem_weight_sensitivity.csv,44,15,dataset | alpha | beta | threshold_percentile | risk_threshold | clean_fpr | precision | recall | f1 | roc_auc | pr_auc | tn | fp | fn | tp,True,False,True,False,False,False
+table_phase13_4c_attack_sensitivity.csv,14,17,dataset | attack_type | clean_rows | attack_rows | evaluation_rows | threshold | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,True,True,False,False,False
+table_phase13_4c_attack_sensitivity_android.csv,7,17,dataset | attack_type | clean_rows | attack_rows | evaluation_rows | threshold | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,True,True,False,False,False
+table_phase13_4c_attack_sensitivity_malmem.csv,7,17,dataset | attack_type | clean_rows | attack_rows | evaluation_rows | threshold | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,True,True,False,False,False
+table_phase13_4c_attack_sensitivity_summary.csv,2,8,dataset | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr,True,False,True,False,False,False
+table_phase13_4d_dataset_defense_summary.csv,8,9,dataset | defense | accuracy | macro_precision | macro_recall | macro_f1 | balanced_accuracy | retention | poison_removal_rate,True,False,True,False,False,True
+table_phase13_4d_dataset_paired_differences.csv,336,5,poisoning_rate | seed | defense | metric | android_minus_malmem,True,False,False,True,False,True
+table_phase13_4d_dataset_summary.csv,4,15,Unnamed: 0 | accuracy | accuracy.1 | macro_precision | macro_precision.1 | macro_recall | macro_recall.1 | macro_f1 | macro_f1.1 | balanced_accuracy | balanced_accuracy.1 | retention | retention.1 | poison_removal_rate | poison_removal_rate.1,False,False,False,False,False,False
+table_phase13_4d_final_dataset_sensitivity_summary.csv,8,9,dataset | defense | accuracy_mean | macro_precision_mean | macro_recall_mean | macro_f1_mean | balanced_accuracy_mean | retention_mean | poison_removal_rate_mean,True,False,True,False,False,True
+table_phase14_2_ablation_results.csv,12,16,dataset | ablation | alpha | beta | threshold | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,False,True,False,False,False
+table_phase14_2_ablation_summary.csv,12,11,dataset | ablation | alpha | beta | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr,True,False,True,False,False,False
+table_phase14_3_ablation_comparisons.csv,10,11,dataset | comparison | baseline | method | f1_baseline | f1_method | f1_absolute_difference | f1_relative_difference | recall_absolute_difference | precision_absolute_difference | pr_auc_absolute_difference,True,False,True,False,False,False
+table_phase14_4_final_ablation_summary.csv,12,11,dataset | ablation | alpha | beta | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr,True,False,True,False,False,False
+table_phase15_2_long_form_results.csv,672,7,experiment_id | dataset | poisoning_rate | seed | defense | metric | value,True,False,True,True,False,True
+table_phase15_3_descriptive_summary.csv,224,10,dataset | poisoning_rate | defense | metric | n | mean | std | sem | ci95_lower | ci95_upper,True,False,True,False,False,True
+table_phase15_4_paired_defense_differences.csv,504,8,dataset | poisoning_rate | seed | metric | comparison | poisonshield_value | baseline_value | absolute_difference,True,False,True,True,False,False
+table_phase15_5_friedman_tests.csv,56,5,dataset | poisoning_rate | metric | friedman_statistic | friedman_p_value,True,False,True,False,False,False
+table_phase15_5_wilcoxon_pairwise_tests.csv,168,14,dataset | poisoning_rate | metric | comparison | n_pairs | wilcoxon_statistic | p_value | mean_difference | median_difference | rank_biserial_effect | holm_p_value | holm_reject | significant_raw | significant_holm,True,False,True,False,False,False
+table_phase15_5_wilcoxon_results.csv,168,14,dataset | poisoning_rate | metric | comparison | n_pairs | mean_difference | median_difference | rank_biserial_effect | wilcoxon_statistic | p_value | holm_p_value | holm_reject | significant_raw | significant_holm,True,False,True,False,False,False
+table_phase15_6_statistical_effect_summary.csv,168,16,dataset | poisoning_rate | metric | comparison | n_pairs | mean_difference | median_difference | rank_biserial_effect | wilcoxon_statistic | p_value | holm_p_value | holm_reject | effect_direction | friedman_statistic | friedman_p_value | friedman_significant_05,True,False,True,False,False,False
+table_phase15_7_dataset_statistical_summary.csv,2,8,dataset | friedman_tests | friedman_raw_significant | wilcoxon_comparisons | holm_significant | mean_effect | median_effect | mean_rank_biserial_effect,True,False,True,False,False,False
+table_phase15_7_statistical_interpretation.csv,4,4,finding | value | denominator | interpretation,True,False,False,False,False,False
+table_phase15_8_dataset_statistical_summary.csv,2,8,dataset | friedman_tests | friedman_raw_significant | wilcoxon_comparisons | holm_significant | mean_effect | median_effect | mean_rank_biserial_effect,True,False,True,False,False,False
+table_phase15_8_final_statistical_reporting.csv,168,20,dataset | poisoning_rate | metric | comparison | n_pairs | mean_difference | median_difference | rank_biserial_effect | wilcoxon_statistic | p_value | holm_p_value | holm_reject | effect_direction | friedman_statistic | friedman_p_value | friedman_significant_05 | statistically_significant_raw | statistically_significant_holm | absolute_effect | practical_effect_magnitude,True,False,True,False,False,False
+table_phase15_8_interpretation_summary.csv,7,3,finding | value | interpretation,True,False,False,False,False,False
+table_phase15_9_computational_reporting_status.csv,8,2,category | status,False,False,False,False,False,False
+table_phase15_9_reproducibility_summary.csv,7,2,parameter | locked_value,False,False,False,False,False,False
+table_phase16_2_master_results_inventory.csv,6,5,phase | artifact | rows | columns | status,True,False,False,False,False,False
+table_phase16_3_figure_inventory.csv,6,4,figure_number | filename | source | status,True,False,False,False,False,False
+table_phase17_2_h1_evidence.csv,72,22,dataset | poisoning_rate | metric | comparison | n_pairs | mean_difference | median_difference | rank_biserial_effect | wilcoxon_statistic | p_value | holm_p_value | holm_reject | effect_direction | friedman_statistic | friedman_p_value | friedman_significant_05 | statistically_significant_raw | statistically_significant_holm | absolute_effect | practical_effect_magnitude | positive_difference | holm_significant,True,False,True,False,False,False
+table_phase17_2_h2_evidence.csv,32,22,dataset | poisoning_rate | metric | comparison | n_pairs | mean_difference | median_difference | rank_biserial_effect | wilcoxon_statistic | p_value | holm_p_value | holm_reject | effect_direction | friedman_statistic | friedman_p_value | friedman_significant_05 | statistically_significant_raw | statistically_significant_holm | absolute_effect | practical_effect_magnitude | positive_difference | holm_significant,True,False,True,False,False,False
+table_phase17_2_h3_evidence.csv,120,8,dataset | poisoning_rate | seed | metric | poisonshield_value | no_defense_value | absolute_difference | poisonshield_higher,True,False,True,True,False,False
+table_phase17_2_hypothesis_evidence_summary.csv,3,4,hypothesis | evidence_source | evidence_rows | status,True,False,False,False,False,False
+table_phase17_3_h1_evidence_audit.csv,5,2,item | value,False,False,False,False,False,False
+table_phase17_3_hypothesis_decisions.csv,3,4,hypothesis | decision | evidence_status | interpretation,False,False,False,False,False,False
+table_phase17_4_final_hypothesis_summary.csv,3,6,hypothesis | research_claim | comparison | decision | evidence_status | interpretation,False,False,False,False,False,False
+table_phase18_10_attack_specific_results.csv,14,5,Dataset | Attack | Integrity | Anomaly | PoisonShield,True,False,False,False,False,False
+table_phase18_11_poisoning_rate_sensitivity.csv,32,8,dataset | poisoning_rate | defense | n_experiments | accuracy_mean | macro_precision_mean | macro_recall_mean | macro_f1_mean,True,False,True,False,False,True
+table_phase18_12_downstream_performance.csv,8,6,dataset | training_condition | accuracy | macro_precision | macro_recall | macro_f1,True,False,True,False,False,False
+table_phase18_14_ablation_study.csv,12,6,Dataset | Configuration | F1 | Recall | FPR | Retention,True,False,False,False,False,False
+table_phase18_15_statistical_comparison.csv,168,5,Comparison | Mean Difference | CI | Effect Size | Adjusted p-value,True,False,False,False,False,False
+table_phase18_16_computational_overhead.csv,96,5,Method | Training Time | Detection Time | Filtering Time | Memory/Resource Cost,True,False,False,False,False,False
+table_phase18_25_curve_availability.csv,2,5,figure | curve_point_data_available | scalar_auc_available | decision | reason,True,False,False,False,False,False
+table_phase18_26_roc_pr_figure_decision.csv,2,3,figure | status | justification,False,False,False,False,False,False
+table_phase18_2_master_results_index.csv,8,3,artifact | filename | rows,True,False,False,False,False,False
+table_phase18_3_dataset_overview.csv,2,7,Dataset | Observations | Features | Classes | Clean observations | Attack observations | Attack types,True,False,False,False,False,False
+table_phase18_4_data_quality_audit.csv,2,5,Dataset | Missing cells | Duplicate rows | Constant features | Invalid values,True,False,False,False,False,False
+table_phase18_5_attack_distribution.csv,14,3,Dataset | Attack | Observations,True,False,False,False,False,False
+table_phase18_6_descriptive_statistics.csv,12,7,Dataset | Variable | Mean | Median | SD | Min | Max,True,False,False,False,False,False
+table_phase18_7_anomaly_detection_performance.csv,2,9,Dataset | Threshold | Precision | Recall | F1 | ROC-AUC | PR-AUC | FPR | FNR,True,False,False,False,False,False
+table_phase18_8_integrity_performance.csv,14,3,Dataset | Attack | Integrity,True,False,False,False,False,False
+table_phase18_9_main_defense_comparison.csv,2,7,Dataset | Precision | Recall | F1 | PR-AUC | FPR | Retention,True,False,False,False,False,False
+table_phase19_10_cross_rq_research_synthesis.csv,6,3,research_question | evidence_domain | interpretation,False,False,False,False,False,False
+table_phase19_11_hypothesis_evaluation.csv,3,3,hypothesis | status | evidence,False,False,False,False,False,False
+table_phase19_12_final_rq_synthesis.csv,6,5,rq | question_area | empirical_basis | finding | interpretation,False,False,False,False,False,False
+table_phase19_17_figure_inventory.csv,14,3,filename | extension | size_bytes,True,False,False,False,False,False
+table_phase19_17_paper_table_inventory.csv,30,5,paper_group | filename | status | rows | columns,True,False,False,False,False,False
+table_phase19_17_primary_table_selection.csv,9,2,paper_group | primary_artifact,False,False,False,False,False,False
+table_phase19_18_final_figure_readiness.csv,9,3,figure_concept | matched_files | status,False,False,False,False,False,False
+table_phase19_18_final_paper_table_readiness.csv,12,7,paper_table | title | artifact | shape | status | columns | recommended_use,False,False,False,False,False,False
+table_phase19_18_paper_table_dataset_coverage.csv,11,4,paper_table | artifact | Android | MalMem,True,False,False,False,False,False
+table_phase19_22_final_reproducibility_readiness.csv,10,2,check | status,False,False,False,False,False,False
+table_phase19_2_rq1_integrity_interpretation.csv,6,7,experiment | scenario | expected_integrity_behavior | risk_hashes | added_hashes | removed_hashes | multiplicity_anomalies,True,False,False,False,False,False
+table_phase19_3_rq2_anomaly_interpretation.csv,14,9,dataset | attack_type | _attack_normalized | precision | recall | f1 | f1_rank | recall_rank | interpretation,True,True,True,False,False,False
+table_phase19_4_rq3_poisonshield_interpretation.csv,14,12,dataset | attack_type | Integrity | Anomaly | PoisonShield | gain_vs_integrity | gain_vs_anomaly | best_individual | best_individual_method | gain_vs_best_individual | PoisonShield_better_than_both | PoisonShield_equal_to_best,True,True,True,False,False,False
+table_phase19_4_rq3_poisonshield_summary.csv,2,10,dataset | n_attacks | mean_integrity_f1 | mean_anomaly_f1 | mean_poisonshield_f1 | mean_gain_vs_integrity | mean_gain_vs_anomaly | mean_gain_vs_best_individual | poisonshield_better_than_both_count | interpretation,True,False,True,False,False,False
+table_phase19_6_rq4_rate_comparison.csv,8,9,dataset | poisoning_rate | E1_No_Defense_F1 | E2_Integrity_Only_F1 | E3_Anomaly_Only_F1 | E4_PoisonShield_F1 | PoisonShield_vs_NoDefense | PoisonShield_vs_Integrity | PoisonShield_vs_Anomaly,True,False,True,False,False,False
+table_phase19_6_rq4_rate_summary.csv,2,11,dataset | best_poisonshield_rate_pct | best_poisonshield_macro_f1 | worst_poisonshield_rate_pct | worst_poisonshield_macro_f1 | rates_beating_no_defense | rates_beating_integrity | rates_beating_anomaly | mean_gain_vs_no_defense | mean_gain_vs_integrity | mean_gain_vs_anomaly,True,False,True,False,False,False
+table_phase19_7_rq5_downstream_comparison.csv,2,8,dataset | E1_No_Defense_Macro_F1 | E2_Integrity_Only_Macro_F1 | E3_Anomaly_Only_Macro_F1 | E4_PoisonShield_Macro_F1 | PoisonShield_vs_NoDefense | PoisonShield_vs_Integrity | PoisonShield_vs_Anomaly,True,False,True,False,False,False
+table_phase19_7_rq5_downstream_summary.csv,2,8,dataset | poisonshield_macro_f1 | best_comparison | best_macro_f1_gain | comparisons_with_positive_gain | gain_vs_no_defense | gain_vs_integrity | gain_vs_anomaly,True,False,True,False,False,False
+table_phase19_8_rq6_detection_retention_summary.csv,2,7,dataset | best_f1_configuration | best_f1 | best_recall_configuration | best_recall | lowest_fpr_configuration | lowest_fpr,True,False,True,False,False,False
+table_phase19_8_rq6_detection_retention_tradeoff.csv,12,6,dataset | configuration | f1 | recall | fpr | retention,True,False,True,False,False,False
+table_phase19_9_rq6_final_interpretation.csv,12,6,dataset | configuration | f1 | recall | fpr | retention,True,False,True,False,False,False
+table_phase19_9_rq6_final_summary.csv,2,11,dataset | highest_f1_configuration | highest_f1 | highest_recall_configuration | highest_recall | lowest_fpr_configuration | lowest_fpr | highest_retention_configuration | highest_retention | best_tradeoff_configuration | tradeoff_score,True,False,True,False,False,False
+table_phase8_observation_evidence_android.csv,11598,11,source_index | Class | original_label | attack_type | poisoned | integrity_match | integrity_risk | anomaly_score | anomaly_norm | risk_score | poisonshield_flag,True,True,False,False,False,False
+table_phase8_observation_evidence_malmem.csv,58596,11,source_index | Class | original_label | attack_type | poisoned | integrity_match | integrity_risk | anomaly_score | anomaly_norm | risk_score | poisonshield_flag,True,True,False,False,False,False
+table_phase9_attack_filtering.csv,56,7,dataset | attack_type | condition | original_poisoned_count | poisoned_remaining | poisoned_removed | poisoned_removal_rate,True,True,True,False,False,False
+table_phase9_condition_validation.csv,8,8,dataset | condition | training_rows | clean_rows_retained | poisoned_rows_retained | clean_retention | clean_false_removal_rate | poisoned_removal_rate,True,False,True,False,False,False
+table_poisoned_summary.csv,2,6,dataset | total_observations | clean_observations | poisoned_observations | clean_percentage | poisoned_percentage,True,False,True,False,False,False
+table_poisonshield_attack_specific_android.csv,7,13,dataset | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp | attack_type,True,True,True,False,False,False
+table_poisonshield_attack_specific_malmem.csv,7,13,dataset | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp | attack_type,True,True,True,False,False,False
+table_poisonshield_fusion_grid_android.csv,44,15,dataset | alpha | beta | threshold_percentile | risk_threshold | clean_fpr | precision | recall | f1 | roc_auc | pr_auc | tn | fp | fn | tp,True,False,True,False,False,False
+table_poisonshield_fusion_grid_malmem.csv,44,15,dataset | alpha | beta | threshold_percentile | risk_threshold | clean_fpr | precision | recall | f1 | roc_auc | pr_auc | tn | fp | fn | tp,True,False,True,False,False,False
+table_poisonshield_overall_performance.csv,2,12,dataset | precision | recall | f1 | roc_auc | pr_auc | fpr | fnr | tn | fp | fn | tp,True,False,True,False,False,False
+table_poisonshield_selected_parameters.csv,2,11,dataset | alpha | beta | risk_threshold | threshold_percentile | validation_clean_fpr | validation_precision | validation_recall | validation_f1 | validation_roc_auc | validation_pr_auc,True,False,True,False,False,False
+table_raw_file_inventory.csv,4,3,filename | exists | size_bytes,True,False,False,False,False,False
+table_structural_audit.csv,2,9,dataset | rows | columns | numeric_columns | non_numeric_columns | has_Class | has_attack_type | has_original_label | has_source_index,True,False,True,False,False,False
+trusted_manifest_android.csv,6091,2,row_hash | trusted_count,True,False,False,False,False,False
+trusted_manifest_malmem.csv,42039,2,row_hash | trusted_count,True,False,False,False,False,False
